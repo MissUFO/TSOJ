@@ -1,0 +1,101 @@
+<ion-view >
+    <ion-nav-buttons side="right" class="gb">
+        <div class="upper">
+            <a style="color: white;" class="button button-icon welcome-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/home" ng-class="{'sbu-header-items-active':$root.headerurl == 'home'}"><i class="ion-ios-home-outline"></i>WELCOME</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part1_1" ng-class="{'sbu-header-items-active':$root.headerurl == 'part1' || $root.headerurl == 'mp1'}">Part 1</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part2_14" ng-class="{'sbu-header-items-active':$root.headerurl == 'part2'}">Part 2</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part3_15" ng-class="{'sbu-header-items-active':$root.headerurl == 'part3' || $root.headerurl == 'mp3'}">Part 3</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part4_21" ng-class="{'sbu-header-items-active':$root.headerurl == 'part4' || $root.headerurl == 'mp4'}">Part 4</a> 
+        </div>
+
+        <div class="upper">
+            <a style="color: white;" class="button button-icon invite-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/invitation" ng-class="{'sbu-header-items-active':$root.headerurl == 'invitation'}"><i class="ion-ios-email-outline"></i>INVITATION</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part5_37" ng-class="{'sbu-header-items-active':$root.headerurl == 'part5' || $root.headerurl == 'mp5'}">Part 5</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part6_76" ng-class="{'sbu-header-items-active':$root.headerurl == 'part6' || $root.headerurl == 'mp6'}">Part 6</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part7_115" ng-class="{'sbu-header-items-active':$root.headerurl == 'part7' || $root.headerurl == 'mp7'}">Part 7</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part8_145" ng-class="{'sbu-header-items-active':$root.headerurl == 'part8' || $root.headerurl == 'mp8'}">Part 8</a>  
+        </div>     
+    </ion-nav-buttons>
+
+
+
+    <ion-content scroll="true">
+        <div class="left-arrow">
+            <a ng-href="#/app/mp5"><i class="ion-arrow-left-c side-menu-btn"></i></a>
+        </div>
+        <div class="back-bg">
+
+            <div class="wrapper">
+                <div class="section-one">
+                    <h1>Jesus Stills the Storm</h1>
+
+                    <p>Later on, when it was about sunset, there was a great crowd gathered around Jesus.</p>
+
+                    <p>Jesus got into a boat with his <a href="javascript:void(0)" ng-click="popup('apostles')">12 disciples</a> and told them to take the boat to the other side of the sea.</p>
+
+                    <p>As they were preparing to shove off, a <a href="javascript:void(0)" ng-click="popup('scribes')">scribe</a> came up to Jesus and said:</p>
+
+                    <p><a href="javascript:void(0)" ng-click="popup('teacher')">Teacher</a> I will follow you wherever you go.</p>
+
+                    <p>Jesus said to him:</p>
+
+                    <p>The foxes have dens and the birds of the sky have nests; but the Son of man has no place to lay his head.</p>
+
+                    <p>After this, one of Jesus' disciples said to him:</p>
+
+                    <p>Allow me to go and bury my father.</p>
+
+                    <img src="img/galileefisherman.png" class="img-responsive" name="galileefisherman" title="galileefisherman" />
+                    <p>But Jesus said to him:</p>
+
+                    <p>Follow me; and let the spiritually dead bury their own dead.</p>
+
+                    <p>Jesus then entered the boat that his disciples had prepared and began to travel to the other side of the <a href="javascript:void(0)" ng-click="popup('seaofgalilee')">lake</a>. They left the crowd on the shore.</p>
+
+                    <p>As the boat sailed off toward the other shore, Jesus fell asleep in the boat.</p>
+
+                    <p>While Jesus slept a great windstorm came up on the lake. The waves began to beat against the boat and fill it up with water.</p>
+
+                    <p>The disciples became afraid, to the point of thinking they would be lost in the storm. But Jesus lay asleep at the back of the boat.</p>
+
+                    <p>The disciples came to Jesus and woke him, saying:</p>
+
+                    <p>Lord, we are perishing! And Jesus stood up and rebuked the wind and the sea and the raging water.</p>
+
+                    <p>He said to the sea:</p>
+
+                    <p>Peace, be still.</p>
+
+                    <p>The storm ceased and there was a great calm.</p>
+
+                    <p>Jesus said to his disciples:</p>
+
+                    <p>Why are you so fearful? Don't you have faith yet? Oh you of little faith.</p>
+
+                    <p>The disciples, still afraid, began to marvel, saying to one another:</p>
+
+                    <p>Who is this man that even the wind and the seas obey him?</p>
+
+                </div>   
+            </div>
+        </div>
+
+    </ion-content>
+    <ion-footer-bar class="bar-assertive social-footer">
+        <ul class="footer-pre-nex">
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part5_65g">PREVIOUS</a></li>
+            <li class="listen-block"><a href="javascript:void(0)" ng-click="playAudio($event)" class="button button-light playAudio"><i class="ion-android-volume-mute"><span>Listen audio</span></i></a>                 <a href="javascript:void(0)" class="button button-light pauseAudio" style="display:none"><i class="ion-volume-mute">Pause Audio</i></a></li>
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part5_67">NEXT</a></li>
+        </ul>
+    </ion-footer-bar>
+</ion-view>

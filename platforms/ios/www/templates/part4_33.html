@@ -1,0 +1,78 @@
+<ion-view >
+    <ion-nav-buttons side="right" class="gb">
+        <div class="upper">
+            <a style="color: white;" class="button button-icon welcome-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/home" ng-class="{'sbu-header-items-active':$root.headerurl == 'home'}"><i class="ion-ios-home-outline"></i>WELCOME</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part1_1" ng-class="{'sbu-header-items-active':$root.headerurl == 'part1' || $root.headerurl == 'mp1'}">Part 1</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/home2">Part 2</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/creaNotaSpese">Part 3</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/creaNotaSpese">Part 4</a> 
+        </div>
+
+        <div class="upper">
+            <a style="color: white;" class="button button-icon invite-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/invitation" ng-class="{'sbu-header-items-active':$root.headerurl == 'invitation'}"><i class="ion-ios-email-outline"></i>INVITATION</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/creaNotaSpese">Part 5</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/creaNotaSpese">Part 6</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part7_115" ng-class="{'sbu-header-items-active':$root.headerurl == 'part7' || $root.headerurl == 'mp7'}">Part 7</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part8_145" ng-class="{'sbu-header-items-active':$root.headerurl == 'part8' || $root.headerurl == 'mp8'}">Part 8</a>  
+        </div>
+
+    </ion-nav-buttons>
+
+
+
+    <ion-content scroll="true">
+        <div class="left-arrow">
+            <a ng-href="#/app/mp4"><i class="ion-arrow-left-c side-menu-btn"></i></a>
+        </div>
+        <div class="back-bg">
+
+            <div class="wrapper">
+                <div class="section-one">
+                    <h1>Preaching Tour Through Galilee </h1>
+
+                    <p>Early the next morning, Jesus got up and left the home of Simon Peter and headed for a deserted place where he prayed.</p>
+
+                    <p>Simon and those with him followed, and when they found him, they said:</p>
+
+                    <p>Everyone is looking for you.</p>
+
+                    <p>Jesus said to them:</p>
+
+                    <p>Let's go into the next town where I can preach, for this is my mission.</p>
+
+                    <p>The crowds looked for Jesus and when they found him they begged him not to leave their city.</p>
+
+                    <p>But Jesus said to them:</p>
+
+                    <p>I must preach the good news of the kingdom of God to the other cities also, this is why I was sent.</p>
+
+                    <img src="img/galilkibbutz.png" class="img-responsive" name="galilkibbutz" title="galilkibbutz" />
+                    <p>Jesus went all around <a href="javascript:void(0)" ng-click="popup('galilee')">Galilee</a> teaching in their <a href="javascript:void(0)" ng-click="popup('synagogues')">synagogues</a> and preaching the <a href="javascript:void(0)" ng-click="popup('gospel')">gospel</a> of the kingdom, casting out <a href="javascript:void(0)" ng-click="popup('demon')">demons</a> and healing all their sicknesses and diseases.</p>
+
+                    <img src="img/decapolis.jpg" class="img-responsive" name="decapolis" title="decapolis" style="float:right;padding-left:1%;"/>
+                    <p>News of Jesus spread into all Syria, and people brought to Jesus all who were sick, those tormented by demons, the epileptic and palsied. He healed them all.</p>
+
+                    <p>A great crowd followed Jesus from Galilee, <a href="javascript:void(0)" ng-click="popup('dacapolis')">Decapolis</a>, <a href="javascript:void(0)" ng-click="popup('jerusalem')">Jerusalem</a>, <a href="javascript:void(0)" ng-click="popup('judea')">Judea</a> and from beyond the Jordan. </p>
+                </div>   
+            </div>
+        </div>
+
+    </ion-content>
+    <ion-footer-bar class="bar-assertive social-footer">
+        <ul class="footer-pre-nex">
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part4_32">PREVIOUS</a></li>
+            <li class="listen-block"><a href="javascript:void(0)" ng-click="playAudio($event)" class="button button-light playAudio"><i class="ion-android-volume-mute"><span>Listen audio</span></i></a>                 <a href="javascript:void(0)" class="button button-light pauseAudio" style="display:none"><i class="ion-volume-mute">Pause Audio</i></a></li>
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part4_34">NEXT</a></li>
+        </ul>
+    </ion-footer-bar>
+</ion-view>

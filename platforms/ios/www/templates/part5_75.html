@@ -1,0 +1,165 @@
+<ion-view >
+    <ion-nav-buttons side="right" class="gb">
+        <div class="upper">
+            <a style="color: white;" class="button button-icon welcome-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/home" ng-class="{'sbu-header-items-active':$root.headerurl == 'home'}"><i class="ion-ios-home-outline"></i>WELCOME</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part1_1" ng-class="{'sbu-header-items-active':$root.headerurl == 'part1' || $root.headerurl == 'mp1'}">Part 1</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part2_14" ng-class="{'sbu-header-items-active':$root.headerurl == 'part2'}">Part 2</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part3_15" ng-class="{'sbu-header-items-active':$root.headerurl == 'part3' || $root.headerurl == 'mp3'}">Part 3</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part4_21" ng-class="{'sbu-header-items-active':$root.headerurl == 'part4' || $root.headerurl == 'mp4'}">Part 4</a> 
+        </div>
+
+        <div class="upper">
+            <a style="color: white;" class="button button-icon invite-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/invitation" ng-class="{'sbu-header-items-active':$root.headerurl == 'invitation'}"><i class="ion-ios-email-outline"></i>INVITATION</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part5_37" ng-class="{'sbu-header-items-active':$root.headerurl == 'part5' || $root.headerurl == 'mp5'}">Part 5</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part6_76" ng-class="{'sbu-header-items-active':$root.headerurl == 'part6' || $root.headerurl == 'mp6'}">Part 6</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part7_115" ng-class="{'sbu-header-items-active':$root.headerurl == 'part7' || $root.headerurl == 'mp7'}">Part 7</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part8_145" ng-class="{'sbu-header-items-active':$root.headerurl == 'part8' || $root.headerurl == 'mp8'}">Part 8</a>  
+        </div>     
+    </ion-nav-buttons>
+
+
+
+    <ion-content scroll="true">
+        <div class="left-arrow">
+            <a ng-href="#/app/mp5"><i class="ion-arrow-left-c side-menu-btn"></i></a>
+        </div>
+        <div class="back-bg">
+
+            <div class="wrapper">
+                <div class="section-one">
+                    <h1>Peter's Confession</h1>
+                    <p>The day after Jesus had feed the 5,000, the crowds that had been on the other side of the shore realized that Jesus had left.</p>
+
+                    <p>They began looking for him, and once they figured out where he had gone, they got into their own boats and rowed across the <a href="javascript:void(0)" ng-click="popup('seaofgalilee')">lake</a> to <a href="javascript:void(0)" ng-click="popup('capernaum')">Capernaum</a> to find him.</p>
+
+                    <p>When they found Jesus on the other side of the shore, they asked him:</p>
+
+                    <p><a href="javascript:void(0)" ng-click="popup('teacher')">Teacher</a>, why did you come here?</p>
+
+                    <p>Jesus answered them and said:</p>
+
+                    <p>I am going to tell you an important truth that you need to understand.</p>
+
+                    <p>You are looking for me not because you saw a miracle, but because you ate loaves of bread and your hunger was satisfied.</p>
+
+                    <p>Don't work for the food that spoils but for the food that gives life for eternity, which only the Son of man can give you.</p>
+
+                    <p>For I am the only one the Father has commissioned to give <a href="javascript:void(0)" ng-click="popup('eternal')">eternal</a> life.</p>
+
+                    <img src="img/donkeyplow.png" class="img-responsive" name="donkeyplow" title="donkeyplow" />
+                    <p>They asked:</p>
+
+                    <p>What must we do in order to earn this food that gives life for eternity?</p>
+
+                    <p>Jesus said to them:</p>
+
+                    <p>The work you can do to please God is to believe on the one whom God has sent.</p>
+
+                    <p>They said to him:</p>
+
+                    <p>What sign are you going to do so that we will believe in you? What wonders will you work? Our fathers ate <a href="javascript:void(0)">manna</a> in the wilderness, just as it is written. He gave them bread out of heaven to eat.</p>
+
+                    <p>Jesus said to them:</p>
+
+                    <img src="img/desertdaisies1.png" class="img-responsive" name="desertdaisies" title="desertdaisies" />
+                    <p>It was not <a href="javascript:void(0)" ng-click="popup('lawsofmoses')">Moses</a> that gave you the bread out of heaven, but my Father gives you the true bread out of heaven. The bread of God is the one that comes down out of heaven and gives life to the world.</p>
+
+                    <p>They said to Jesus:</p>
+
+                    <p>Lord, give us this bread always.</p>
+
+                    <p>Jesus said to them:</p>
+
+                    <p>I am the bread of life. He who comes to me will not hunger, and he who believes on me will never thirst.</p>
+
+                    <p>But I say to you, You have seen me and you still do not believe in me. All those who the Father gives to me will come to me.  He who comes to me I will never turn away.</p>
+
+                    <p>For I have come down from heaven, not to do my own will, but to do the will of him who sent me.  This is the will of him who sent me, that I loose none of all he has given to me, but that I will raise them up at the last day.</p>
+
+                    <p>For this is the will of my Father, that everyone who looks to the Son, and believes on him, will have eternal life. I will raise him up in the last day.</p>
+
+                    <p>The Jews began to start grumbling about Jesus because he said he was the bread of life that came down from heaven.  They said:</p>
+
+                    <p>Isn't this Jesus, the son of Joseph? Don't we know his father and mother? How can he say he came down from heaven?</p>
+
+                    <p>Jesus answered them:</p>
+
+                    <p>Stop grumbling among yourselves. No one can come to me, unless the Father who sent me draws him. I will raise him up in the last day. It is written in the prophets:  they will all be taught by God.</p>
+
+                    <p>Every one who has heard from the Father, and has learned, comes to me. Not that any one has seen the Father, except he who is from God; he has seen the Father.</p>
+
+                    <p>I am going to tell you a very important truth: He who believes in me has eternal life. I am the bread of life.</p>
+
+                    <p>Your fathers ate manna in the wilderness, but they all eventually died.</p>
+
+                    <p>I am the living bread that comes down from heaven and once a man eats it he will never die, but live forever. The bread that I give is my flesh, given for the life of the world.</p>
+
+                    <p>The Jews began to discuss what these mysterious words meant:</p>
+
+                    <p>How can a man give us his flesh to eat?</p>
+
+                    <p>Jesus said to them:</p>
+
+                    <p>Again, I tell you a very important truth, unless you eat the flesh of the Son of man and drink my blood, you will not have life.</p>
+
+                    <p>He who <a href="javascript:void(0)" ng-click="popup('sacrifices')">eats my flesh and drinks my blood</a> has eternal life, and I will raise him up at the last day.</p>
+
+                    <p>For my body is true food and my blood is true drink. The person who eats my flesh and drinks my blood remains in me, and I in him.</p>
+
+                    <p>I live because the living Father sent me. The same is true for the person who partakes of me; he will live because of me.</p>
+
+                    <p>This is the true bread that comes down from heaven. Unlike the bread your fathers ate in the wilderness and died, the person who eats this bread will live forever.</p>
+
+                    <p>These are the things that Jesus taught in the <a href="javascript:void(0)" ng-click="popup('synagogues')">synagogue</a> while he was in Capernaum.</p>
+
+                    <p>Many of the followers of Jesus, other than his disciples, were offended when they heard this teaching.</p>
+
+                    <p>Jesus, knew what they were grumbling about and said to them:</p>
+
+                    <p>Does this cause you to stumble? What would happen if you saw the Son of man ascend to where he came from?</p>
+
+                    <p>It is the <a href="javascript:void(0)" ng-click="popup('holyspirit')">Spirit</a> who gives life; the flesh is of no profit. The words that I have spoken to you are spirit and life. But there are some of you who do not believe.</p>
+
+                    <p>(Jesus knew from the very beginning who didn't believe and who would reject him.) </p>
+
+                    <p>Jesus said to them:</p>
+
+                    <p>This is the reason that I told you that no one can come to me unless the Father reveals the truth to him and draws him to me.</p>
+
+                    <p>After this, many people went back to their homes and stopped following him.</p>
+
+                    <p>Jesus called his <a href="javascript:void(0)" ng-click="popup('apostles')">12 disciples</a> together and asked them:</p>
+
+                    <p>Do you want to go away, too?</p>
+
+                    <p>Simon Peter answered:</p>
+
+                    <p>Lord, to whom would we go? You are the one with the words of eternal life.  We believe in you and know that you are the holy one of God.</p>
+
+                    <p>Jesus answered them:</p>
+
+                    <p>Did not I choose all 12 of you, and one of you is a devil? He was speaking of Judas, the son of Simon Iscariot, for he was the one of the 12 who would betray Jesus.</p>
+
+                </div>   
+            </div>
+        </div>
+
+    </ion-content>
+    <ion-footer-bar class="bar-assertive social-footer">
+        <ul class="footer-pre-nex">
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part5_74c">PREVIOUS</a></li>
+            <li class="listen-block"><a href="javascript:void(0)" ng-click="playAudio($event)" class="button button-light playAudio"><i class="ion-android-volume-mute"><span>Listen audio</span></i></a>                 <a href="javascript:void(0)" class="button button-light pauseAudio" style="display:none"><i class="ion-volume-mute">Pause Audio</i></a></li>
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part6_76">NEXT</a></li>
+        </ul>
+    </ion-footer-bar>
+</ion-view>

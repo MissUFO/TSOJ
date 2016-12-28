@@ -1,0 +1,73 @@
+<ion-view >
+    <ion-nav-buttons side="right" class="gb">
+        <div class="upper">
+            <a style="color: white;" class="button button-icon welcome-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/home" ng-class="{'sbu-header-items-active':$root.headerurl == 'home'}"><i class="ion-ios-home-outline"></i>WELCOME</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part1_1" ng-class="{'sbu-header-items-active':$root.headerurl == 'part1' || $root.headerurl == 'mp1'}">Part 1</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part2_14" ng-class="{'sbu-header-items-active':$root.headerurl == 'part2'}">Part 2</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part3_15" ng-class="{'sbu-header-items-active':$root.headerurl == 'part3' || $root.headerurl == 'mp3'}">Part 3</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part4_21" ng-class="{'sbu-header-items-active':$root.headerurl == 'part4' || $root.headerurl == 'mp4'}">Part 4</a> 
+        </div>
+        <div class="upper">
+            <a style="color: white;" class="button button-icon invite-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/invitation" ng-class="{'sbu-header-items-active':$root.headerurl == 'invitation'}"><i class="ion-ios-email-outline"></i>INVITATION</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part5_37" ng-class="{'sbu-header-items-active':$root.headerurl == 'part5' || $root.headerurl == 'mp5'}">Part 5</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part6_76" ng-class="{'sbu-header-items-active':$root.headerurl == 'part6' || $root.headerurl == 'mp6'}">Part 6</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part7_115" ng-class="{'sbu-header-items-active':$root.headerurl == 'part7' || $root.headerurl == 'mp7'}">Part 7</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part8_145" ng-class="{'sbu-header-items-active':$root.headerurl == 'part8' || $root.headerurl == 'mp8'}">Part 8</a>  
+        </div>     
+    </ion-nav-buttons>
+
+
+
+    <ion-content scroll="true">
+        <div class="left-arrow"><a ng-href="#/app/mp7"><i class="ion-arrow-left-c side-menu-btn"></i></a></div>
+        <div class="back-bg">
+
+            <div class="wrapper">
+                <div class="section-one">
+                    <h1>Fig Tree Withered</h1>
+
+                    <p>Every day Jesus went to the temple to teach and every night he returned to the <a href="javascript:void(0)" ng-click="popup('mountofolives')">Mount of Olives</a>, where he slept.</p>
+
+                    <p>People came early in the morning to hear him.</p>
+
+                    <p>As the <a href="javascript:void(0)" ng-click="popup('apostles')">disciples</a> were going into <a href="javascript:void(0)" ng-click="popup('jerusalem')">Jerusalem</a> with Jesus to listen to him teach in the <a href="javascript:void(0)" ng-click="popup('temple')">temple</a> they passed the fig tree that Jesus had cursed.  It was dead, both root and branch.</p>
+
+                    <p>When the disciples saw it they marveled and asked:</p>
+
+                    <p>How did the fig tree wither and die so quickly?</p>
+
+                    <p>Peter remembered that Jesus had cursed the fig tree, and told the other disciples that this was the reason it had withered.</p>
+
+                    <p>Jesus said:</p>
+
+                    <img src="img/fig1.png" class="img-responsive" name="fig1" title="fig1" />
+                    <p>Have faith in God. If you have faith and do not doubt, you could not only do what has been done to this fig tree, but you could say to this mountain, Be taken up and cast into the sea.</p>
+
+                    <p>If you believe it in your heart and do not doubt, what you say will be done. Ask believing in prayer and you will have it.</p>
+
+                    <p>Whenever you stand praying, forgive those that you have something against so that your heavenly father will forgive your sins.
+                    </p>
+
+                </div>   
+            </div>
+        </div>
+
+    </ion-content>
+    <ion-footer-bar class="bar-assertive social-footer">
+        <ul class="footer-pre-nex">
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part7_117">PREVIOUS</a></li>
+            <li class="listen-block"><a href="javascript:void(0)" ng-click="playAudio($event)" class="button button-light playAudio"><i class="ion-android-volume-mute"><span>Listen audio</span></i></a>                 <a href="javascript:void(0)" class="button button-light pauseAudio" style="display:none"><i class="ion-volume-mute">Pause Audio</i></a></li>
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part7_119">NEXT</a></li>
+        </ul>
+    </ion-footer-bar>
+</ion-view>

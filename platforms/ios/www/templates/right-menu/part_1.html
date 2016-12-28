@@ -1,0 +1,81 @@
+<ion-view>
+    <ion-nav-buttons side="right" class="gb">
+        <div class="upper">
+            <a style="color: white;" class="button button-icon welcome-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/home" ng-class="{'sbu-header-items-active':$root.headerurl == 'home'}"><i class="ion-ios-home-outline"></i>WELCOME</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part1_1" ng-class="{'sbu-header-items-active':$root.headerurl == 'part1' || $root.headerurl == 'mp1'}">Part 1</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part2_14" ng-class="{'sbu-header-items-active':$root.headerurl == 'part2'}">Part 2</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part3_15" ng-class="{'sbu-header-items-active':$root.headerurl == 'part3' || $root.headerurl == 'mp3'}">Part 3</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part4_21" ng-class="{'sbu-header-items-active':$root.headerurl == 'part4' || $root.headerurl == 'mp4'}">Part 4</a> 
+        </div>
+
+        <div class="upper">
+            <a style="color: white;" class="button button-icon invite-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/invitation" ng-class="{'sbu-header-items-active':$root.headerurl == 'invitation'}"><i class="ion-ios-email-outline"></i>INVITATION</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part5_37" ng-class="{'sbu-header-items-active':$root.headerurl == 'part5' || $root.headerurl == 'mp5'}">Part 5</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part6_76" ng-class="{'sbu-header-items-active':$root.headerurl == 'part6' || $root.headerurl == 'mp6'}">Part 6</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part7_115" ng-class="{'sbu-header-items-active':$root.headerurl == 'part7' || $root.headerurl == 'mp7'}">Part 7</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part8_145" ng-class="{'sbu-header-items-active':$root.headerurl == 'part8' || $root.headerurl == 'mp8'}">Part 8</a>  
+        </div>
+    </ion-nav-buttons>
+    <ion-content scroll="true">
+
+        <div class="back-bg">
+
+            <div class="menu-wrapper">
+                <div class="right-arrow">
+                    <a href="javascript:;" onclick="window.history.back()"><i class="ion-arrow-right-c side-menu-btn"></i></a>
+                </div>
+                <ion-list class="list-section">
+                    <ion-item ng-href="#/app/part1_1" ng-class="{'sbu-items-active':$root.url == '/app/part1_1'}">
+                        1. John's Introduction
+                    </ion-item>
+                    <ion-item ng-href="#/app/part1_2" ng-class="{'sbu-items-active':$root.url == '/app/part1_2'}">
+                        2. Birth of John the Baptist
+                    </ion-item>
+                    <ion-item ng-href="#/app/part1_3" ng-class="{'sbu-items-active':$root.url == '/app/part1_3'}">
+                        3. Announcement to Mary
+                    </ion-item>
+                    <ion-item ng-href="#/app/part1_4" ng-class="{'sbu-items-active':$root.url == '/app/part1_4'}">
+                        4. Mary Visits Elizabeth
+                    </ion-item>
+                    <ion-item ng-href="#/app/part1_5" ng-class="{'sbu-items-active':$root.url == '/app/part1_5'}">
+                        5. The Birth of John the Baptist
+                    </ion-item>
+                    <ion-item ng-href="#/app/part1_6" ng-class="{'sbu-items-active':$root.url == '/app/part1_6'}">
+                        6. Announcement to Joseph
+                    </ion-item>
+                    <ion-item ng-href="#/app/part1_7" ng-class="{'sbu-items-active':$root.url == '/app/part1_7'}">
+                        7. The Birth of Jesus
+                    </ion-item>
+                    <ion-item ng-href="#/app/part1_8" ng-class="{'sbu-items-active':$root.url == '/app/part1_8'}">
+                        8. The Shepherds Told of the Birth of Jesus
+                    </ion-item>
+                    <ion-item ng-href="#/app/part1_9" ng-class="{'sbu-items-active':$root.url == '/app/part1_9'}">
+                        9. The Naming of Jesus
+                    </ion-item>
+                    <ion-item ng-href="#/app/part1_10" ng-class="{'sbu-items-active':$root.url == '/app/part1_10'}">
+                        10. Wise Men From the East
+                    </ion-item>
+                    <ion-item ng-href="#/app/part1_11" ng-class="{'sbu-items-active':$root.url == '/app/part1_11'}">
+                        11. Flight into Egypt
+                    </ion-item>
+                    <ion-item ng-href="#/app/part1_12" ng-class="{'sbu-items-active':$root.url == '/app/part1_12'}">
+                        12. Out of Egypt
+                    </ion-item>
+                    <ion-item ng-href="#/app/part1_13" ng-class="{'sbu-items-active':$root.url == '/app/part1_13'}">
+                        13. The Boy Jesus Visits Jerusalem
+                    </ion-item>
+                </ion-list>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,76 @@
+<ion-view >
+    <ion-nav-buttons side="right" class="gb">
+        <div class="upper">
+            <a style="color: white;" class="button button-icon welcome-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/home" ng-class="{'sbu-header-items-active':$root.headerurl == 'home'}"><i class="ion-ios-home-outline"></i>WELCOME</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part1_1" ng-class="{'sbu-header-items-active':$root.headerurl == 'part1' || $root.headerurl == 'mp1'}">Part 1</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part2_14" ng-class="{'sbu-header-items-active':$root.headerurl == 'part2'}">Part 2</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part3_15" ng-class="{'sbu-header-items-active':$root.headerurl == 'part3' || $root.headerurl == 'mp3'}">Part 3</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part4_21" ng-class="{'sbu-header-items-active':$root.headerurl == 'part4' || $root.headerurl == 'mp4'}">Part 4</a> 
+        </div>
+
+        <div class="upper">
+            <a style="color: white;" class="button button-icon invite-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/invitation" ng-class="{'sbu-header-items-active':$root.headerurl == 'invitation'}"><i class="ion-ios-email-outline"></i>INVITATION</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part5_37" ng-class="{'sbu-header-items-active':$root.headerurl == 'part5' || $root.headerurl == 'mp5'}">Part 5</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part6_76" ng-class="{'sbu-header-items-active':$root.headerurl == 'part6' || $root.headerurl == 'mp6'}">Part 6</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part7_115" ng-class="{'sbu-header-items-active':$root.headerurl == 'part7' || $root.headerurl == 'mp7'}">Part 7</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part8_145" ng-class="{'sbu-header-items-active':$root.headerurl == 'part8' || $root.headerurl == 'mp8'}">Part 8</a>  
+        </div>
+
+    </ion-nav-buttons>
+
+
+
+    <ion-content scroll="true">
+        <div class="left-arrow">
+            <a ng-href="#/app/mp4"><i class="ion-arrow-left-c side-menu-btn"></i></a>
+        </div>
+        <div class="back-bg">
+
+            <div class="wrapper">
+                <div class="section-one">
+                    <h1>Healing Peter's Mother-In-Law </h1>
+                    <img src="img/safed.png" class="img-responsive" name="safed" title="safed" />
+                    <p>After Jesus had healed the <a href="javascript:void(0)" ng-click="popup('demon')">demoniac</a>, he left the <a href="javascript:void(0)" ng-click="popup('synagogues')">synagogue</a> and went into the house of Simon and Andrew.</p>
+
+                    <p>James and John were with him.</p>
+
+                    <p>Jesus found that Simon's mother-in-law sick with a high fever. All the members of the household asked Jesus to heal her.</p>
+
+                    <p>Jesus stood over her, rebuked the fever and touched her hand. She immediately got up and the fever left her.</p>
+
+                    <p>Full of vigor, she began serving Jesus and <a href="javascript:void(0)" ng-click="popup('apostles')">his disciples</a>.</p>
+
+                    <p>News of where Jesus was staying spread quickly. As the sun set, people started bringing anyone sick or demon-possessed to Jesus. He healed them all.</p>
+
+                    <p>This was a fulfillment of the <a href="javascript:void(0)" ng-click="popup('prophesied')">prophecy</a> in <a href="javascript:void(0)" ng-click="popup('isaiah')">Isaiah</a> that says, He himself took on our infirmities and he bore our diseases.</p>
+
+                    <p>Soon, all the city's people gathered outside the house Jesus was staying.</p>
+
+                    <p>Jesus healed those sick with many kinds of diseases and he cast out demons.</p>
+
+                    <p>The demons came out of their victims, screaming and saying, You are the Son of God.</p>
+
+                    <p>Jesus rebuked the demons and commanded them not to speak or declare that he was the Christ. </p>
+                </div>   
+            </div>
+        </div>
+
+    </ion-content>
+    <ion-footer-bar class="bar-assertive social-footer">
+        <ul class="footer-pre-nex">
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part4_31">PREVIOUS</a></li>
+            <li class="listen-block"><a href="javascript:void(0)" ng-click="playAudio($event)" class="button button-light playAudio"><i class="ion-android-volume-mute"><span>Listen audio</span></i></a>                 <a href="javascript:void(0)" class="button button-light pauseAudio" style="display:none"><i class="ion-volume-mute">Pause Audio</i></a></li>
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part4_33">NEXT</a></li>
+        </ul>
+    </ion-footer-bar>
+</ion-view>

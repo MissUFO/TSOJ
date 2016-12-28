@@ -1,0 +1,77 @@
+<ion-view >
+    <ion-nav-buttons side="right" class="gb">
+        <div class="upper">
+            <a style="color: white;" class="button button-icon welcome-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/home" ng-class="{'sbu-header-items-active':$root.headerurl == 'home'}"><i class="ion-ios-home-outline"></i>WELCOME</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part1_1" ng-class="{'sbu-header-items-active':$root.headerurl == 'part1' || $root.headerurl == 'mp1'}">Part 1</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part2_14" ng-class="{'sbu-header-items-active':$root.headerurl == 'part2'}">Part 2</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part3_15" ng-class="{'sbu-header-items-active':$root.headerurl == 'part3' || $root.headerurl == 'mp3'}">Part 3</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part4_21" ng-class="{'sbu-header-items-active':$root.headerurl == 'part4' || $root.headerurl == 'mp4'}">Part 4</a> 
+        </div>
+
+        <div class="upper">
+            <a style="color: white;" class="button button-icon invite-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/invitation" ng-class="{'sbu-header-items-active':$root.headerurl == 'invitation'}"><i class="ion-ios-email-outline"></i>INVITATION</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part5_37" ng-class="{'sbu-header-items-active':$root.headerurl == 'part5' || $root.headerurl == 'mp5'}">Part 5</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part6_76" ng-class="{'sbu-header-items-active':$root.headerurl == 'part6' || $root.headerurl == 'mp6'}">Part 6</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part7_115" ng-class="{'sbu-header-items-active':$root.headerurl == 'part7' || $root.headerurl == 'mp7'}">Part 7</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part8_145" ng-class="{'sbu-header-items-active':$root.headerurl == 'part8' || $root.headerurl == 'mp8'}">Part 8</a>  
+        </div>
+
+    </ion-nav-buttons>
+
+
+
+    <ion-content scroll="true">
+        <div class="left-arrow">
+            <a ng-href="#/app/mp1"><i class="ion-arrow-left-c side-menu-btn"></i></a>
+        </div>
+        <div class="back-bg">
+
+            <div class="wrapper">
+                <div class="section-one">
+                    <h1>Announcement to Mary </h1>
+                    <img src="img/nazareth.jpg"  class="img-responsive" title="nazareth-map" alt="nazareth-map"/>
+                    <p>When Elizabeth was six months pregnant with John, the angel <a href="javascript:void(0)" ng-click="popup('gabriel')">Gabriel</a> was sent from God to <a href="javascript:void(0)" ng-click="popup('nazareth')">Nazareth</a>, a city in <a href="javascript:void(0)" ng-click="popup('galilee')">Galilee</a>.</p>
+                    <img src="img/nazarethsmall.png" class="img-responsive" title="nazareth" alt="nazareth" style="float:right;padding-left:1%" />
+                    <p>Gabriel visited a virgin who was engaged to be married to a man named Joseph. The virgin's name was Mary.</p>
+                    <p>Gabriel came to Mary and said:</p>
+                    <p>You are highly favored, the Lord is with you.</p>
+                    <p>But Mary was greatly troubled by this greeting, and wondered what it meant. The <a href="javascript:void(0)" ng-click="popup('angel')">angel</a> told her not to fear and repeated that she had found favor with God.</p>
+                    <p>Then Gabriel told Mary that she would conceive a son and that she was to call his name Jesus.</p>
+                    <p>Gabriel continued:</p>
+                    <p>He shall be great, and shall be called the son of the most high.</p>
+                    <p>And the Lord God shall give unto him the throne of his father <a href="javascript:void(0)" ng-click="popup('david')">David</a>. And he shall reign over the house of <a href="javascript:void(0)" ng-click="popup('jacob')">Jacob</a> and of his kingdom there shall be no end.</p>
+                    <p>Mary asked the angel:</p>
+                    <p>How shall this be, seeing I have never had a physical relationship with a man?</p>
+                    <p>The angel answered and said to her:</p>
+                    <p>The <a href="javascript:void(0)" ng-click="popup('holyspirit')">Holy Spirit</a> will come upon you, and the power of the most high will overshadow you, and the holy thing which is begotten shall be called the son of God.</p> 
+                    <p>And take notice: Elizabeth your cousin, has also conceived a son in her old age and is now six months pregnant.</p>
+                    <p>No word from God shall be proclaimed without power.</p>
+                    <p>Then Mary said:</p>
+                    <p>Behold, the handmaid of the Lord; let it happen to me according to your word.</p>
+                    <p>The angel left. </p>
+
+                </div>   
+            </div>
+        </div>
+
+    </ion-content>
+    <ion-footer-bar class="bar-assertive social-footer">
+        <ul class="footer-pre-nex">
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part1_2">PREVIOUS</a></li>
+            <li class="listen-block"><a href="javascript:void(0)" ng-click="playAudio($event)" class="button button-light playAudio"><i class="ion-android-volume-mute"><span>Listen audio</span></i></a>                 
+                <a href="javascript:void(0)" class="button button-light pauseAudio" style="display:none"><i class="ion-volume-mute">Pause Audio</i></a></li>
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part1_4">NEXT</a></li>
+
+        </ul>
+    </ion-footer-bar>
+</ion-view>

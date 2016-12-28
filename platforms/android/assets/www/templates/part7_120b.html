@@ -1,0 +1,78 @@
+<ion-view >
+    <ion-nav-buttons side="right" class="gb">
+        <div class="upper">
+            <a style="color: white;" class="button button-icon welcome-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/home" ng-class="{'sbu-header-items-active':$root.headerurl == 'home'}"><i class="ion-ios-home-outline"></i>WELCOME</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part1_1" ng-class="{'sbu-header-items-active':$root.headerurl == 'part1' || $root.headerurl == 'mp1'}">Part 1</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part2_14" ng-class="{'sbu-header-items-active':$root.headerurl == 'part2'}">Part 2</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part3_15" ng-class="{'sbu-header-items-active':$root.headerurl == 'part3' || $root.headerurl == 'mp3'}">Part 3</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part4_21" ng-class="{'sbu-header-items-active':$root.headerurl == 'part4' || $root.headerurl == 'mp4'}">Part 4</a> 
+        </div>
+        <div class="upper">
+            <a style="color: white;" class="button button-icon invite-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/invitation" ng-class="{'sbu-header-items-active':$root.headerurl == 'invitation'}"><i class="ion-ios-email-outline"></i>INVITATION</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part5_37" ng-class="{'sbu-header-items-active':$root.headerurl == 'part5' || $root.headerurl == 'mp5'}">Part 5</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part6_76" ng-class="{'sbu-header-items-active':$root.headerurl == 'part6' || $root.headerurl == 'mp6'}">Part 6</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part7_115" ng-class="{'sbu-header-items-active':$root.headerurl == 'part7' || $root.headerurl == 'mp7'}">Part 7</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part8_145" ng-class="{'sbu-header-items-active':$root.headerurl == 'part8' || $root.headerurl == 'mp8'}">Part 8</a>  
+        </div>     
+    </ion-nav-buttons>
+
+
+
+    <ion-content scroll="true">
+        <div class="left-arrow"><a ng-href="#/app/mp7"><i class="ion-arrow-left-c side-menu-btn"></i></a></div>
+        <div class="back-bg">
+
+            <div class="wrapper">
+                <div class="section-one">
+                    <h3>Sadducees and the Resurrection</h3>
+
+                    <p>One day, some of the <a href="javascript:void(0)" ng-click="popup('sadducees')">Sadducees</a> (Sadducees do not believe in the resurrection) came to Jesus and said:</p>
+
+                    <p><a href="javascript:void(0)" ng-click="popup('teacher')">Teacher</a>, <a href="javascript:void(0)" ng-click="popup('lawsofmoses')">Moses</a> wrote that if a man's brother dies and has no children that the brother should take his wife and have children together.</p>
+
+                    <p>If the second brother dies, then the third brother should take his wife and have children.</p>
+
+                    <p>If there were seven brothers and each died without having any children by the same wife and then finally the wife dies, whose wife will she be after the resurrection?</p>
+
+                    <p>Jesus answered:</p>
+
+                    <p>You have made a mistake. You do not know the <a href="javascript:void(0)" ng-click="popup('scripture')">Scriptures</a>, nor do you know the power of God.</p>
+
+                    <p>The sons of this world marry and take wives. But those who are worthy to be in the heavenly kingdom, once they rise from the dead in the resurrection, will not marry or take wives.</p>
+
+                    <img src="img/firsttempleexcavate.png" class="img-responsive" name="firsttempleexcavate" title="firsttempleexcavate" />
+                    <p>They cannot die anymore, and they will be like the <a href="javascript:void(0)" ng-click="popup('angel')">angels</a>.</p>
+
+                    <p>As far as the resurrection of the dead, <a href="javascript:void(0)" ng-click="popup('lawsofmoses')">Moses</a> even showed that the dead are raised when at the burning bush he called the Lord, the God of <a href="javascript:void(0)" ng-click="popup('abraham')">Abraham</a>, <a href="javascript:void(0)" ng-click="popup('abraham')">Isaac and Jacob</a>.</p>
+
+                    <p>Haven't you read the book of Moses?</p>
+
+                    <p>God is not the God of the dead, he is the God of the living. Your way of thinking is flawed.</p>
+
+                    <p>When the multitude heard Jesus say this, they were astonished. Some of the scribes said to Jesus:</p>
+
+                    <p>You have answered well.</p>
+
+                </div>   
+            </div>
+        </div>
+
+    </ion-content>
+    <ion-footer-bar class="bar-assertive social-footer">
+        <ul class="footer-pre-nex">
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part7_120">PREVIOUS</a></li>
+            <li class="listen-block"><a href="javascript:void(0)" ng-click="playAudio($event)" class="button button-light playAudio"><i class="ion-android-volume-mute"><span>Listen audio</span></i></a>                 <a href="javascript:void(0)" class="button button-light pauseAudio" style="display:none"><i class="ion-volume-mute">Pause Audio</i></a></li>
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part7_120c">NEXT</a></li>
+        </ul>
+    </ion-footer-bar>
+</ion-view>

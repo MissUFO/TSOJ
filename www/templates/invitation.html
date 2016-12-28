@@ -1,0 +1,67 @@
+<ion-view >
+    <ion-nav-buttons side="right" class="gb">
+        <div class="upper">
+            <a style="color: white;" class="button button-icon welcome-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/home" ng-class="{'sbu-header-items-active':$root.headerurl == 'home'}"><i class="ion-ios-home-outline"></i>WELCOME</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part1_1" ng-class="{'sbu-header-items-active':$root.headerurl == 'part1' || $root.headerurl == 'mp1'}">Part 1</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part2_14" ng-class="{'sbu-header-items-active':$root.headerurl == 'part2'}">Part 2</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part3_15" ng-class="{'sbu-header-items-active':$root.headerurl == 'part3' || $root.headerurl == 'mp3'}">Part 3</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part4_21" ng-class="{'sbu-header-items-active':$root.headerurl == 'part4' || $root.headerurl == 'mp4'}">Part 4</a> 
+        </div>
+
+        <div class="upper">
+            <a style="color: white;" class="button button-icon invite-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/invitation" ng-class="{'sbu-header-items-active':$root.headerurl == 'invitation'}"><i class="ion-ios-email-outline"></i>INVITATION</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part5_37" ng-class="{'sbu-header-items-active':$root.headerurl == 'part5' || $root.headerurl == 'mp5'}">Part 5</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part6_76" ng-class="{'sbu-header-items-active':$root.headerurl == 'part6' || $root.headerurl == 'mp6'}">Part 6</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part7_115" ng-class="{'sbu-header-items-active':$root.headerurl == 'part7' || $root.headerurl == 'mp7'}">Part 7</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part8_145" ng-class="{'sbu-header-items-active':$root.headerurl == 'part8' || $root.headerurl == 'mp8'}">Part 8</a>  
+        </div>
+
+    </ion-nav-buttons>
+    <ion-content scroll="true">
+        <div class="back-bg">
+            <div class="wrapper section-one">
+                <h1>Our Invitation</h1>
+                <p>Jesus began his ministry here on earth by choosing twelve disciples.</p>
+                <p>Jesus is still calling disciples. He wants you to know the story of his life so you will believe it, and put your trust in him as savior.</p>
+                <blockquote>
+                    <p>It is not by chance that you have read his story.</p>
+                    <p>It is not an accident that you may at this very moment be considering the claims he made to be the Son of God.</p>
+                </blockquote>
+                <p>Can you see yourself as one of the characters in the story of Jesus?</p>
+                <p>Jesus wants you to realize that just as Lazarus was physically dead, so you also are spiritually dead in your sins.</p>
+                <p>He wants you to know that he stands ready to call you out of that place of death and give you real life.</p>
+                <p>Jesus wants you to see yourself as the man born blind. He stands ready to give you true sight.</p>
+                <blockquote>
+                    <p>Jesus wants you to see the deeper meaning of why he miraculously fed the five thousand people - that is, that he is the true bread of life.</p>
+                    <p>He wants you to believe in him so that you will never be hungry or thirsty again.</p>
+                    <p>Jesus wants you to look at the cross on which he was crucified and ask the question. "Was it for me, Jesus, that you hung there and died? Was it my sins that caused you all that pain?"</p>
+                </blockquote>
+                <p>Jesus wants you to consider the empty tomb and ask yourself another simple question: "Who but God has the power to rise from the dead?"</p>
+                <p>The same God who came to earth and lived the sinless life that you could never live, and die the death that you deserved to die, wants more from you than just to consider his story. He has arranged this encounter so that you might believe in him and have eternal life.</p>
+                <blockquote>
+                    <p>If you would like to know more, please <a href="#/app/contactus">send us an email</a> with your questions.</p>
+                </blockquote>
+            </div>
+        </div>
+    </ion-content>
+    <ion-footer-bar class="bar-assertive social-footer">
+        <ul class="footer-pre-nex">
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/home">PREVIOUS</a></li>
+            <li class="listen-block"><a href="javascript:void(0)" ng-click="playAudio($event)" class="button button-light playAudio"><i class="ion-android-volume-mute"><span>Listen audio</span></i><i class="ion-volume-mute" style="display:none">Pause Audio</i></a>
+                <a href="javascript:void(0)" class="button button-light pauseAudio" style="display:none"><i class="ion-volume-mute">Pause Audio</i></a>
+            </li>
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part1_1">NEXT</a></li>
+
+        </ul>
+    </ion-footer-bar>
+</ion-view>

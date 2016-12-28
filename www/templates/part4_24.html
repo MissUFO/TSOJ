@@ -1,0 +1,76 @@
+<ion-view >
+    <ion-nav-buttons side="right" class="gb">
+        <div class="upper">
+            <a style="color: white;" class="button button-icon welcome-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/home" ng-class="{'sbu-header-items-active':$root.headerurl == 'home'}"><i class="ion-ios-home-outline"></i>WELCOME</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part1_1" ng-class="{'sbu-header-items-active':$root.headerurl == 'part1' || $root.headerurl == 'mp1'}">Part 1</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part2_14" ng-class="{'sbu-header-items-active':$root.headerurl == 'part2'}">Part 2</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part3_15" ng-class="{'sbu-header-items-active':$root.headerurl == 'part3' || $root.headerurl == 'mp3'}">Part 3</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part4_21" ng-class="{'sbu-header-items-active':$root.headerurl == 'part4' || $root.headerurl == 'mp4'}">Part 4</a> 
+        </div>
+
+        <div class="upper">
+            <a style="color: white;" class="button button-icon invite-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/invitation" ng-class="{'sbu-header-items-active':$root.headerurl == 'invitation'}"><i class="ion-ios-email-outline"></i>INVITATION</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part5_37" ng-class="{'sbu-header-items-active':$root.headerurl == 'part5' || $root.headerurl == 'mp5'}">Part 5</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part6_76" ng-class="{'sbu-header-items-active':$root.headerurl == 'part6' || $root.headerurl == 'mp6'}">Part 6</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part7_115" ng-class="{'sbu-header-items-active':$root.headerurl == 'part7' || $root.headerurl == 'mp7'}">Part 7</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part8_145" ng-class="{'sbu-header-items-active':$root.headerurl == 'part8' || $root.headerurl == 'mp8'}">Part 8</a>  
+        </div>
+
+    </ion-nav-buttons>
+
+
+
+    <ion-content scroll="true">
+        <div class="left-arrow">
+            <a ng-href="#/app/mp4"><i class="ion-arrow-left-c side-menu-btn"></i></a>
+        </div>
+        <div class="back-bg">
+
+            <div class="wrapper">
+                <div class="section-one">
+                    <h1>First Ministry in Judea </h1>
+                    <img src="img/aenon.jpg" class="img-responsive" name="aenon" title="aenon" />
+                    <p>After this, Jesus and his disciples went to <a href="javascript:void(0)" ng-click="popup('judea')">Judea</a> where they began to baptize. John also continued to <a href="javascript:void(0)" ng-click="popup('baptizing')">baptize</a> in Aenon near Salim because there was a lot of water in that area.</p>
+
+                    <p>Questions began to arise among John's disciples regarding purification.</p>
+
+                    <p>They came to John and said:</p>
+
+                    <p>The man (referring to Jesus) you testified about is also baptizing and everyone is going to him to be baptized.</p>
+
+                    <p>Jesus' disciples were the ones doing the baptizing; Jesus did not baptize anyone.</p>
+
+                    <p>John told his disciples:</p>
+
+                    <p>A man cannot receive anything unless it is given to him from heaven. You heard what I testified, I am not the <a href="javascript:void(0)" ng-click="popup('christ')">Christ</a>, but the one sent ahead of him. The man who has the bride is the bridegroom.</p>
+
+                    <p>The friend of the bridegroom, who stands by and hears him, is very glad to hear the bridegroom's voice. Therefore my joy is made full. He must increase, but I must decrease.</p>
+
+                    <p>He who comes from above is above all, he who is on the earth is from the earth, and can only speak as a person on earth; he who comes from heaven is above all. What the man from heaven has seen and heard, he testifies about, and no one receives his testimony.</p>
+
+                    <p>The ones who receive his testimony are putting trust in God and expressing that God is true.</p>
+
+                    <p>The Father loves the Son and has given all things into his hand. He who believes in the Son has <a href="javascript:void(0)" ng-click="popup('eternal')">eternal</a> life. But those who do not obey the Son shall not see life, but the wrath of God.</p>
+                </div>   
+            </div>
+        </div>
+
+    </ion-content>
+    <ion-footer-bar class="bar-assertive social-footer">
+        <ul class="footer-pre-nex">
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part4_23">PREVIOUS</a></li>
+            <li class="listen-block"><a href="javascript:void(0)" ng-click="playAudio($event)" class="button button-light playAudio"><i class="ion-android-volume-mute"><span>Listen audio</span></i></a>                 <a href="javascript:void(0)" class="button button-light pauseAudio" style="display:none"><i class="ion-volume-mute">Pause Audio</i></a></li>
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part4_25">NEXT</a></li>
+        </ul>
+    </ion-footer-bar>
+</ion-view>

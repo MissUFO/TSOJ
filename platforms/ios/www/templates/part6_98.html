@@ -1,0 +1,88 @@
+<ion-view >
+     <ion-nav-buttons side="right" class="gb">
+        <div class="upper">
+            <a style="color: white;" class="button button-icon welcome-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/home" ng-class="{'sbu-header-items-active':$root.headerurl == 'home'}"><i class="ion-ios-home-outline"></i>WELCOME</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part1_1" ng-class="{'sbu-header-items-active':$root.headerurl == 'part1' || $root.headerurl == 'mp1'}">Part 1</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part2_14" ng-class="{'sbu-header-items-active':$root.headerurl == 'part2'}">Part 2</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part3_15" ng-class="{'sbu-header-items-active':$root.headerurl == 'part3' || $root.headerurl == 'mp3'}">Part 3</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part4_21" ng-class="{'sbu-header-items-active':$root.headerurl == 'part4' || $root.headerurl == 'mp4'}">Part 4</a> 
+        </div>
+
+        <div class="upper">
+            <a style="color: white;" class="button button-icon invite-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/invitation" ng-class="{'sbu-header-items-active':$root.headerurl == 'invitation'}"><i class="ion-ios-email-outline"></i>INVITATION</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part5_37" ng-class="{'sbu-header-items-active':$root.headerurl == 'part5' || $root.headerurl == 'mp5'}">Part 5</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part6_76" ng-class="{'sbu-header-items-active':$root.headerurl == 'part6' || $root.headerurl == 'mp6'}">Part 6</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+              ng-click="clickCreaElencoSpese()" ng-href="#/app/part7_115" ng-class="{'sbu-header-items-active':$root.headerurl == 'part7' || $root.headerurl == 'mp7'}">Part 7</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part8_145" ng-class="{'sbu-header-items-active':$root.headerurl == 'part8' || $root.headerurl == 'mp8'}">Part 8</a>  
+        </div>     
+    </ion-nav-buttons>
+
+
+
+
+    <ion-content scroll="true">
+        <div class="left-arrow">
+            <a ng-href="#/app/mp6"><i class="ion-arrow-left-c side-menu-btn"></i></a>
+        </div>
+        <div class="back-bg">
+
+            <div class="wrapper">
+                <div class="section-one">
+                    <h1>Woman Healed on the Sabbath</h1>
+
+                    <p>Jesus was teaching in the <a href="javascript:void(0)" ng-click="popup('synagogues')">synagogue</a> on the <a href="javascript:void(0)" ng-click="popup('sabbath')">Sabbath</a> day.  There was a woman who had been suffering for 18 years from an infirmity that left her twisted so badly that she could not stand up straight.</p>
+
+                    <p>Jesus saw the woman, called her over and said:</p>
+
+                    <p>Woman, you are set free from your infirmity.</p>
+
+                    <p>He laid hands on her and she was immediately healed. She was able to stand tall, and she began glorifying God.</p>
+
+                    <p>The ruler of the synagogue became indignant at Jesus because he had healed on the Sabbath day. </p>
+
+                    <p>The ruler said to the crowd:</p>	
+
+                    <p>There are six days in which to do your work and you can be healed on any one of those days, but not on the Sabbath.</p>
+
+                    <img src="img/colonnade.png" class="img-responsive" name="colonnade" title="colonnade" />
+                    <p>Jesus answered him:</p>
+
+                    <p>You hypocrites, doesn't each one of you lead your ox or your donkey to water on the Sabbath?</p>
+
+                    <p>Shouldn't this woman, a daughter of <a href="javascript:void(0)" ng-click="popup('abraham')">Abraham</a> whom <a href="javascript:void(0)" ng-click="popup('satan')">Satan</a> had bound for 18 years, be freed from her bondage on the day of the Sabbath?</p>
+
+                    <p>As Jesus said these things, his adversaries were put to shame, and the whole crowd rejoiced because of all the glorious things that Jesus did.</p>
+
+                    <p>Jesus continued:</p>
+
+                    <p>What is the kingdom of God like? What should I compare it to?</p>
+
+                    <p>It is like the grain of the mustard seed, which a man took and threw into his garden and it grew, and it became like a tree.</p>
+
+                    <p>Then the birds of the sky made homes in its branches.</p>
+
+                    <p>What else can I compare the kingdom of heaven to? It is like yeast, which a woman hid in three measures of flour, until it permeated all of the dough.</p>
+
+                </div>   
+            </div>
+        </div>
+
+    </ion-content>
+    <ion-footer-bar class="bar-assertive social-footer">
+        <ul class="footer-pre-nex">
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part6_97">PREVIOUS</a></li>
+            <li class="listen-block"><a href="javascript:void(0)" ng-click="playAudio($event)" class="button button-light playAudio"><i class="ion-android-volume-mute"><span>Listen audio</span></i></a>                 <a href="javascript:void(0)" class="button button-light pauseAudio" style="display:none"><i class="ion-volume-mute">Pause Audio</i></a></li>
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part6_99">NEXT</a></li>
+        </ul>
+    </ion-footer-bar>
+</ion-view>

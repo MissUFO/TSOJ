@@ -1,0 +1,70 @@
+<ion-view >
+    <ion-nav-buttons side="right" class="gb">
+        <div class="upper">
+            <a style="color: white;" class="button button-icon welcome-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/home" ng-class="{'sbu-header-items-active':$root.headerurl == 'home'}"><i class="ion-ios-home-outline"></i>WELCOME</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part1_1" ng-class="{'sbu-header-items-active':$root.headerurl == 'part1' || $root.headerurl == 'mp1'}">Part 1</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part2_14" ng-class="{'sbu-header-items-active':$root.headerurl == 'part2'}">Part 2</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part3_15" ng-class="{'sbu-header-items-active':$root.headerurl == 'part3' || $root.headerurl == 'mp3'}">Part 3</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part4_21" ng-class="{'sbu-header-items-active':$root.headerurl == 'part4' || $root.headerurl == 'mp4'}">Part 4</a> 
+        </div>
+        <div class="upper">
+            <a style="color: white;" class="button button-icon invite-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/invitation" ng-class="{'sbu-header-items-active':$root.headerurl == 'invitation'}"><i class="ion-ios-email-outline"></i>INVITATION</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part5_37" ng-class="{'sbu-header-items-active':$root.headerurl == 'part5' || $root.headerurl == 'mp5'}">Part 5</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part6_76" ng-class="{'sbu-header-items-active':$root.headerurl == 'part6' || $root.headerurl == 'mp6'}">Part 6</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part7_115" ng-class="{'sbu-header-items-active':$root.headerurl == 'part7' || $root.headerurl == 'mp7'}">Part 7</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part8_145" ng-class="{'sbu-header-items-active':$root.headerurl == 'part8' || $root.headerurl == 'mp8'}">Part 8</a> 
+        </div>     
+    </ion-nav-buttons>
+
+
+
+    <ion-content scroll="true">
+        <div class="left-arrow"><a ng-href="#/app/mp7"><i class="ion-arrow-left-c side-menu-btn"></i></a></div>
+        <div class="back-bg">
+
+            <div class="wrapper">
+                <div class="section-one">
+                    <h1>The Crucifixion</h1>
+                    <h3>On the Way to the Cross</h3>
+                    <img src="img/golgotha.png" class="img-responsive" name="golgotha" title="golgotha" />
+                    <p>And after the <a href="javascript:void(0)" ng-click="popup('rome')">Roman</a> soldiers had mocked Jesus, they took off his purple robe and put his own garments back on. They led him out to be <a href="javascript:void(0)" ng-click="popup('crucified')">crucified</a>, and he went, carrying his own <a href="javascript:void(0)" ng-click="popup('cross')">cross</a> for himself.</p>
+
+                    <p>As they made their way to the place where Jesus was to be crucified, the Roman soldiers found a man named Simon of Cyrene (the father of Alexander and Rufus) and compelled him to carry the cross of Jesus.</p>
+
+
+                    <img src="img/viadolodoor.png" class="img-responsive" name="viadolodoor" title="viadolodoor" />
+                    <p>And a great multitude followed and all the woman wailed and lamented.</p>
+
+                    <p>Jesus turned to them and said:</p>
+
+                    <p>Daughers of <a href="javascript:void(0)" ng-click="popup('jerusalem')">Jerusalem</a>, do not weep for me, weep for yourself and for your children. The day is coming when they will say, Blessed are the barren and the wombs that never bore children.</p>
+
+                    <p>Then they will say to mountains, Fall on us, and to the hills, Cover us. For if they do these things when the tree is green, what will they do when it is dry.</p>
+
+                    <p>There were two others who were criminals being put to death at the same time as Jesus. And they brought them to the place which is called in Hebrew, Golgotha. This means The place of the skull.</p>
+
+                    <p>And when they had come to the place, they offered Jesus <a href="javascript:void(0)" ng-click="popup('vinegar')">wine to drink, mingled with gall</a>: When Jesus tasted it, he would not drink it. </p>
+
+                </div>   
+            </div>
+        </div>
+
+    </ion-content>
+    <ion-footer-bar class="bar-assertive social-footer">
+        <ul class="footer-pre-nex">
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part7_143">PREVIOUS</a></li>
+            <li class="listen-block"><a href="javascript:void(0)" ng-click="playAudio($event)" class="button button-light playAudio"><i class="ion-android-volume-mute"><span>Listen audio</span></i></a>                 <a href="javascript:void(0)" class="button button-light pauseAudio" style="display:none"><i class="ion-volume-mute">Pause Audio</i></a></li>
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part7_144b">NEXT</a></li>
+        </ul>
+    </ion-footer-bar>
+</ion-view>

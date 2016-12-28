@@ -1,0 +1,82 @@
+<ion-view >
+        <ion-nav-buttons side="right" class="gb">
+        <div class="upper">
+            <a style="color: white;" class="button button-icon welcome-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/home" ng-class="{'sbu-header-items-active':$root.headerurl == 'home'}"><i class="ion-ios-home-outline"></i>WELCOME</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part1_1" ng-class="{'sbu-header-items-active':$root.headerurl == 'part1' || $root.headerurl == 'mp1'}">Part 1</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part2_14" ng-class="{'sbu-header-items-active':$root.headerurl == 'part2'}">Part 2</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part3_15" ng-class="{'sbu-header-items-active':$root.headerurl == 'part3' || $root.headerurl == 'mp3'}">Part 3</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part4_21" ng-class="{'sbu-header-items-active':$root.headerurl == 'part4' || $root.headerurl == 'mp4'}">Part 4</a> 
+        </div>
+        <div class="upper">
+            <a style="color: white;" class="button button-icon invite-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/invitation" ng-class="{'sbu-header-items-active':$root.headerurl == 'invitation'}"><i class="ion-ios-email-outline"></i>INVITATION</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part5_37" ng-class="{'sbu-header-items-active':$root.headerurl == 'part5' || $root.headerurl == 'mp5'}">Part 5</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part6_76" ng-class="{'sbu-header-items-active':$root.headerurl == 'part6' || $root.headerurl == 'mp6'}">Part 6</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part7_115" ng-class="{'sbu-header-items-active':$root.headerurl == 'part7' || $root.headerurl == 'mp7'}">Part 7</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part8_145" ng-class="{'sbu-header-items-active':$root.headerurl == 'part8' || $root.headerurl == 'mp8'}">Part 8</a>  
+        </div>     
+    </ion-nav-buttons>
+
+
+
+    <ion-content scroll="true">
+        <div class="left-arrow"><a ng-href="#/app/mp7"><i class="ion-arrow-left-c side-menu-btn"></i></a></div>
+        <div class="back-bg">
+
+            <div class="wrapper">
+                <div class="section-one">
+                    <h3>The Great Commandment</h3>
+
+                    <p>When the <a href="javascript:void(0)" ng-click="popup('pharisees')">Pharisees</a> heard that Jesus had silenced the <a href="javascript:void(0)" ng-click="popup('sadducees')">Sadducees</a>, they had a meeting. One of them, a <a href="javascript:void(0)" ng-click="popup('lawyers')">lawyer</a>, went to Jesus with a question.</p>
+
+                    <p>He asked:</p>
+
+                    <p><a href="javascript:void(0)" ng-click="popup('teacher')">Teacher</a>, which is the greatest <a href="javascript:void(0)" ng-click="popup('commandment')">commandment</a> in the law?</p>
+
+                    <p>Jesus said:</p>
+
+                    <p>The first is, Hear, O Israel, the Lord our God is one:</p>
+
+                    <p>You shall love the Lord your God with all your heart, and with all of your soul and with all of your mind and with all of your strength.</p>
+
+                    <p>This the first and greatest commandment.</p>
+
+                    <img src="img/gravestonesunset.png" class="img-responsive" name="gravestonesunset" title="gravestonesunset" />
+                    <p>The second is connected to it:</p>
+
+                    <p>You shall love your neighbor as you love yourself.</p>
+
+                    <p>There are no other commandments greater than these. On these two commandments, the entire law and all the <a href="javascript:void(0)" ng-click="popup('prophesied')">prophets</a> rest.</p>
+
+                    <p>The <a href="javascript:void(0)" ng-click="popup('scribes')">scribe</a> said:</p>
+
+                    <p>Teacher you have answered well. To love the Lord with all your heart, your understanding and your strength -- and to love your neighbor as yourself -- is more important than all the <a href="javascript:void(0)" ng-click="popup('sacrifices')">burnt offerings and sacrifices</a>.</p>
+
+                    <p>When Jesus heard the lawyer's answer, he said:</p>
+
+                    <p>You are not far from the kingdom of God.</p>
+
+                    <p>After that no one dared to ask Jesus any more questions. </p>
+
+                </div>   
+            </div>
+        </div>
+
+    </ion-content>
+    <ion-footer-bar class="bar-assertive social-footer">
+        <ul class="footer-pre-nex">
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part7_120b">PREVIOUS</a></li>
+            <li class="listen-block"><a href="javascript:void(0)" ng-click="playAudio($event)" class="button button-light playAudio"><i class="ion-android-volume-mute"><span>Listen audio</span></i></a>                 <a href="javascript:void(0)" class="button button-light pauseAudio" style="display:none"><i class="ion-volume-mute">Pause Audio</i></a></li>
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part7_120d">NEXT</a></li>
+        </ul>
+    </ion-footer-bar>
+</ion-view>

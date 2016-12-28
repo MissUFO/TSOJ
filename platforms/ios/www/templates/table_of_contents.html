@@ -1,0 +1,647 @@
+<ion-view>
+    <ion-nav-buttons side="right" class="gb">
+        <div class="upper">
+            <a style="color: white;" class="button button-icon welcome-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/home" ng-class="{'sbu-header-items-active':$root.headerurl == 'home'}"><i class="ion-ios-home-outline"></i>WELCOME</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part1_1" ng-class="{'sbu-header-items-active':$root.headerurl == 'part1' || $root.headerurl == 'mp1'}">Part 1</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part2_14" ng-class="{'sbu-header-items-active':$root.headerurl == 'part2'}">Part 2</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part3_15" ng-class="{'sbu-header-items-active':$root.headerurl == 'part3' || $root.headerurl == 'mp3'}">Part 3</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part4_21" ng-class="{'sbu-header-items-active':$root.headerurl == 'part4' || $root.headerurl == 'mp4'}">Part 4</a> 
+        </div>
+
+        <div class="upper">
+            <a style="color: white;" class="button button-icon invite-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/invitation" ng-class="{'sbu-header-items-active':$root.headerurl == 'invitation'}"><i class="ion-ios-email-outline"></i>INVITATION</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part5_37" ng-class="{'sbu-header-items-active':$root.headerurl == 'part5' || $root.headerurl == 'mp5'}">Part 5</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part6_76" ng-class="{'sbu-header-items-active':$root.headerurl == 'part6' || $root.headerurl == 'mp6'}">Part 6</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part7_115" ng-class="{'sbu-header-items-active':$root.headerurl == 'part7' || $root.headerurl == 'mp7'}">Part 7</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part8_145" ng-class="{'sbu-header-items-active':$root.headerurl == 'part8' || $root.headerurl == 'mp8'}">Part 8</a>  
+        </div>
+    </ion-nav-buttons>
+    <ion-content scroll="true">
+        <!--        <div class="left-arrow">
+                    <a href="javascript:;" onclick="window.history.back()"><i class="ion-arrow-right-c side-menu-btn"></i></a>
+                </div>-->
+        <div class="back-bg">
+            <div class="menu-wrapper section-one table-of-content">
+
+                <ion-list class="list-section">
+                    <!-- PART ONE -->
+                    <ion-item class="odd header-item">
+                        <h1><strong>PART ONE</strong></h1>
+                        <h3>CHRIST'S LIFE PRIOR TO HIS MINISTRY</h3>
+                    </ion-item>
+                    <ion-item class="tbl-cont-list" ng-href="#/app/part1_1" ng-class="{'sbu-items-active':$root.url == '/app/part1_1'}">
+                        1. John's Introduction
+                    </ion-item>
+                    <ion-item class="tbl-cont-list" ng-href="#/app/part1_2" ng-class="{'sbu-items-active':$root.url == '/app/part1_2'}">
+                        2. Birth of John the Baptist
+                    </ion-item>
+                    <ion-item class="tbl-cont-list" ng-href="#/app/part1_3" ng-class="{'sbu-items-active':$root.url == '/app/part1_3'}">
+                        3. Announcement to Mary
+                    </ion-item>
+                    <ion-item class="tbl-cont-list" ng-href="#/app/part1_4" ng-class="{'sbu-items-active':$root.url == '/app/part1_4'}">
+                        4. Mary Visits Elizabeth
+                    </ion-item>
+                    <ion-item class="tbl-cont-list" ng-href="#/app/part1_5" ng-class="{'sbu-items-active':$root.url == '/app/part1_5'}">
+                        5. The Birth of John the Baptist
+                    </ion-item>
+                    <ion-item class="tbl-cont-list" ng-href="#/app/part1_6" ng-class="{'sbu-items-active':$root.url == '/app/part1_6'}">
+                        6. Announcement to Joseph
+                    </ion-item>
+                    <ion-item class="tbl-cont-list" ng-href="#/app/part1_7" ng-class="{'sbu-items-active':$root.url == '/app/part1_7'}">
+                        7. The Birth of Jesus
+                    </ion-item>
+                    <ion-item class="tbl-cont-list" ng-href="#/app/part1_8" ng-class="{'sbu-items-active':$root.url == '/app/part1_8'}">
+                        8. The Shepherds Told of the Birth of Jesus
+                    </ion-item>
+                    <ion-item class="tbl-cont-list" ng-href="#/app/part1_9" ng-class="{'sbu-items-active':$root.url == '/app/part1_9'}">
+                        9. The Naming of Jesus
+                    </ion-item>
+                    <ion-item class="tbl-cont-list" ng-href="#/app/part1_10" ng-class="{'sbu-items-active':$root.url == '/app/part1_10'}">
+                        10. Wise Men From the East
+                    </ion-item>
+                    <ion-item class="tbl-cont-list" ng-href="#/app/part1_11" ng-class="{'sbu-items-active':$root.url == '/app/part1_11'}">
+                        11. Flight into Egypt
+                    </ion-item>
+                    <ion-item class="tbl-cont-list" ng-href="#/app/part1_12" ng-class="{'sbu-items-active':$root.url == '/app/part1_12'}">
+                        12. Out of Egypt
+                    </ion-item>
+                    <ion-item class="tbl-cont-list" ng-href="#/app/part1_13" ng-class="{'sbu-items-active':$root.url == '/app/part1_13'}">
+                        13. The Boy Jesus Visits Jerusalem
+                    </ion-item>
+
+                    <!-- PART TWO -->
+                    <ion-item class="odd header-item">
+                        <h1><strong>PART TWO</strong></h1>
+                        <h3>THE MINISTRY OF JOHN THE BAPTIST</h3>
+                    </ion-item>
+                    <ion-item class="tbl-cont-list" ng-href="#/app/part2_14" ng-class="{'sbu-items-active':$root.url == '/app/part2_14'}">
+                        14. John the Baptist
+                    </ion-item>
+
+                    <!-- PART THREE -->
+                    <ion-item class="odd header-item">
+                        <h1><strong>PART THREE</strong></h1>
+                        <h3> BEGINNING OF JESUS MINISTRY </h3>
+                    </ion-item>
+                    <ion-item ng-href="#/app/part3_15" ng-class="{'sbu-items-active':$root.url == '/app/part3_15'}">
+                        15. Jesus is Baptized by John
+                    </ion-item>
+                    <ion-item ng-href="#/app/part3_16" ng-class="{'sbu-items-active':$root.url == '/app/part3_16'}">
+                        16. TEMPTED IN THE WILDERNESS
+                    </ion-item>
+                    <ion-item ng-href="#/app/part3_17" ng-class="{'sbu-items-active':$root.url == '/app/part3_17'}">
+                        17. John's Testimony
+                    </ion-item>
+                    <ion-item ng-href="#/app/part3_18" ng-class="{'sbu-items-active':$root.url == '/app/part3_18'}">
+                        18. Jesus' First Disciples
+                    </ion-item>
+                    <ion-item ng-href="#/app/part3_19" ng-class="{'sbu-items-active':$root.url == '/app/part3_19'}">
+                        19. First Miracle
+                    </ion-item>
+                    <ion-item ng-href="#/app/part3_20" ng-class="{'sbu-items-active':$root.url == '/app/part3_20'}">
+                        20. Jesus at Capernaum
+                    </ion-item>
+
+
+                    <!-- PART FOUR -->
+                    <ion-item class="odd header-item">
+                        <h1><strong>PART FOUR</strong></h1>
+                        <h3> FIRST TO THE SECOND PASSOVER </h3>
+                    </ion-item>
+                    <ion-item ng-href="#/app/part4_21" ng-class="{'sbu-items-active':$root.url == '/app/part4_21'}">
+                        21. First Passover of Jesus' Ministry
+                    </ion-item>
+                    <ion-item ng-href="#/app/part4_22" ng-class="{'sbu-items-active':$root.url == '/app/part4_22'}">
+                        22. Jesus Cleanses the Temple
+                    </ion-item>
+                    <ion-item ng-href="#/app/part4_23" ng-class="{'sbu-items-active':$root.url == '/app/part4_23'}">
+                        23. Nicodemus Visits Jesus by Night
+                    </ion-item>
+                    <ion-item ng-href="#/app/part4_24" ng-class="{'sbu-items-active':$root.url == '/app/part4_24'}">
+                        24. First Ministry in Judea
+                    </ion-item>
+                    <ion-item ng-href="#/app/part4_25" ng-class="{'sbu-items-active':$root.url == '/app/part4_25'}">
+                        25. Jesus Goes to Galilee
+                    </ion-item>
+                    <ion-item ng-href="#/app/part4_26" ng-class="{'sbu-items-active':$root.url == '/app/part4_26'}">
+                        26. Woman at the Well
+                    </ion-item>
+                    <ion-item ng-href="#/app/part4_27" ng-class="{'sbu-items-active':$root.url == '/app/part4_27'}">
+                        27. Arrival in Galilee
+                    </ion-item>
+                    <ion-item ng-href="#/app/part4_28" ng-class="{'sbu-items-active':$root.url == '/app/part4_28'}">
+                        28. The Second Miracle at Cana
+                    </ion-item>
+                    <ion-item ng-href="#/app/part4_29" ng-class="{'sbu-items-active':$root.url == '/app/part4_29'}">
+                        29. Jesus' Temporary Residence
+                    </ion-item>
+                    <ion-item ng-href="#/app/part4_30" ng-class="{'sbu-items-active':$root.url == '/app/part4_30'}">
+                        30. Jesus Calls Four Fishermen
+                    </ion-item>
+                    <ion-item ng-href="#/app/part4_31" ng-class="{'sbu-items-active':$root.url == '/app/part4_31'}">
+                        31. Healing a Demoniac
+                    </ion-item>
+                    <ion-item ng-href="#/app/part4_32" ng-class="{'sbu-items-active':$root.url == '/app/part4_32'}">
+                        32. Healing Peter's Mother-In-Law
+                    </ion-item>
+                    <ion-item ng-href="#/app/part4_33" ng-class="{'sbu-items-active':$root.url == '/app/part4_33'}">
+                        33. Preaching Tour Through Galilee
+                    </ion-item>
+                    <ion-item ng-href="#/app/part4_34" ng-class="{'sbu-items-active':$root.url == '/app/part4_34'}">
+                        34. Jesus Heals a Leper
+                    </ion-item>
+                    <ion-item ng-href="#/app/part4_35" ng-class="{'sbu-items-active':$root.url == '/app/part4_35'}">
+                        35. Jesus Heals a Paralytic
+                    </ion-item>
+                    <ion-item ng-href="#/app/part4_36" ng-class="{'sbu-items-active':$root.url == '/app/part4_36'}">
+                        36. The Call of Matthew
+                    </ion-item>
+
+                    <!-- PART FIVE -->
+                    <ion-item class="odd header-item">
+                        <h1><strong>PART FIVE</strong></h1>
+                        <h3> SECOND PASSOVER TO THE THIRD </h3>
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_37" ng-class="{'sbu-items-active':$root.url == '/app/part5_37'}">
+                        37. Jesus Heals on the Sabbath Day
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_38" ng-class="{'sbu-items-active':$root.url == '/app/part5_38'}">
+                        38. Jesus Defends His Disciples
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_39" ng-class="{'sbu-items-active':$root.url == '/app/part5_39'}">
+                        39. Healing on the Sabbath
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_40" ng-class="{'sbu-items-active':$root.url == '/app/part5_40'}">
+                        40. Jesus Heals Multitudes
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_41" ng-class="{'sbu-items-active':$root.url == '/app/part5_41'}">
+                        41. Jesus Selects Twelve Apostles
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_42" ng-class="{'sbu-items-active':$root.url == '/app/part5_42'}">
+                        42. Sermon on the Mount
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_43" ng-class="{'sbu-items-active':$root.url == '/app/part5_43'}">
+                        43. Introductory Statements
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_44" ng-class="{'sbu-items-active':$root.url == '/app/part5_44'}">
+                        44. Beatitudes
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_45" ng-class="{'sbu-items-active':$root.url == '/app/part5_45'}">
+                        45. Duties of Messiah's Subjects
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_46" ng-class="{'sbu-items-active':$root.url == '/app/part5_46'}">
+                        46. Messianic Teaching
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_47" ng-class="{'sbu-items-active':$root.url == '/app/part5_47'}">
+                        47. Almsgiving, Prayer, and Fasting
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_48" ng-class="{'sbu-items-active':$root.url == '/app/part5_48'}">
+                        48. Heavenly Treasures
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_49" ng-class="{'sbu-items-active':$root.url == '/app/part5_49'}">
+                        49. Law Concerning Judging
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_50" ng-class="{'sbu-items-active':$root.url == '/app/part5_50'}">
+                        50. Concerning Prayer
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_51" ng-class="{'sbu-items-active':$root.url == '/app/part5_51'}">
+                        51. The Golden Rule
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_52" ng-class="{'sbu-items-active':$root.url == '/app/part5_52'}">
+                        52. The Two Ways
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_53" ng-class="{'sbu-items-active':$root.url == '/app/part5_53'}">
+                        53. Two Builders
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_54" ng-class="{'sbu-items-active':$root.url == '/app/part5_54'}">
+                        54. Healing the Centurion's Servant
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_55" ng-class="{'sbu-items-active':$root.url == '/app/part5_55'}">
+                        55. Jesus Raises the Widow's Son
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_56" ng-class="{'sbu-items-active':$root.url == '/app/part5_56'}">
+                        56. Question from Prison
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_57" ng-class="{'sbu-items-active':$root.url == '/app/part5_57'}">
+                        57. Jesus' Feet Anointed
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_58" ng-class="{'sbu-items-active':$root.url == '/app/part5_58'}">
+                        58. Journeying about Galilee
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_59" ng-class="{'sbu-items-active':$root.url == '/app/part5_59'}">
+                        59. Accusations of the Jews
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_60" ng-class="{'sbu-items-active':$root.url == '/app/part5_60'}">
+                        60. Sign Seekers
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_61" ng-class="{'sbu-items-active':$root.url == '/app/part5_61'}">
+                        61. The True Family
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_62" ng-class="{'sbu-items-active':$root.url == '/app/part5_62'}">
+                        62. Jesus Denounces the Pharisees
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_63" ng-class="{'sbu-items-active':$root.url == '/app/part5_63'}">
+                        63. His Approaching Passion
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_64" ng-class="{'sbu-items-active':$root.url == '/app/part5_64'}">
+                        64. Barren Fig Tree
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_65" ng-class="{'sbu-items-active':$root.url == '/app/part5_65'}">
+                        65. First Parables
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_65b" class="sub-list-section" ng-class="{'sbu-items-active':$root.url == '/app/part5_65b'}">
+                        B. Parable of the Sower
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_65c" class="sub-list-section" ng-class="{'sbu-items-active':$root.url == '/app/part5_65c'}">
+                        C. Parable of the Seed
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_65d" class="sub-list-section" ng-class="{'sbu-items-active':$root.url == '/app/part5_65d'}">
+                        D. Parable of the Weeds
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_65e" class="sub-list-section" ng-class="{'sbu-items-active':$root.url == '/app/part5_65e'}">
+                        E. Parables of the Mustard Seed
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_65f" class="sub-list-section" ng-class="{'sbu-items-active':$root.url == '/app/part5_65f'}">
+                        F. Parable of the Weeds Explained
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_65g" class="sub-list-section" ng-class="{'sbu-items-active':$root.url == '/app/part5_65g'}">
+                        G. Parables of Treasure
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_66" ng-class="{'sbu-items-active':$root.url == '/app/part5_66'}">
+                        66. Jesus Stills the Storm
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_67" ng-class="{'sbu-items-active':$root.url == '/app/part5_67'}">
+                        67. Jesus Heals Two Demoniacs
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_68" ng-class="{'sbu-items-active':$root.url == '/app/part5_68'}">
+                        68. Matthew's Feast
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_69" ng-class="{'sbu-items-active':$root.url == '/app/part5_69'}">
+                        69. Jairus' Daughter
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_70" ng-class="{'sbu-items-active':$root.url == '/app/part5_70'}">
+                        70. Healing Blind Men
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_71" ng-class="{'sbu-items-active':$root.url == '/app/part5_71'}">
+                        71. Jesus Is Rejected
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_72" ng-class="{'sbu-items-active':$root.url == '/app/part5_72'}">
+                        72. The 12 Sent Out
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_73" ng-class="{'sbu-items-active':$root.url == '/app/part5_73'}">
+                        73. Herod Antipas
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_74" ng-class="{'sbu-items-active':$root.url == '/app/part5_74'}">
+                        74. Withdrawal from Herod's Territory
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_74b" class="sub-list-section" ng-class="{'sbu-items-active':$root.url == '/app/part5_74b'}">
+                        B. Feeding the Five Thousand
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_74c" class="sub-list-section" ng-class="{'sbu-items-active':$root.url == '/app/part5_74c'}">
+                        C. Jesus Walks on Water
+                    </ion-item>
+                    <ion-item ng-href="#/app/part5_75" ng-class="{'sbu-items-active':$root.url == '/app/part5_75'}">
+                        75. Peter's Confession
+                    </ion-item>
+
+                    <!-- PART SIX -->
+                    <ion-item class="odd header-item">
+                        <h1><strong>PART SIX</strong></h1>
+                        <h3> THIRD PASSOVER UNTIL JESUS ARRIVAL AT BETHANY </h3>
+                    </ion-item>
+                    <ion-item ng-href="#/app/part6_76"  ng-class="{'sbu-items-active':$root.url == '/app/part6_76'}">
+                        76. Scribes Criticize Jesus 
+                    </ion-item>
+                    <ion-item ng-href="#/app/part6_77"  ng-class="{'sbu-items-active':$root.url == '/app/part6_77'}">
+                        77. Withdraws From Herod's Territory 
+                    </ion-item>
+                    <ion-item ng-href="#/app/part6_78" ng-class="{'sbu-items-active':$root.url == '/app/part6_78'}">
+                        78. Phoenician Woman's Daughter
+                    </ion-item>
+                    <ion-item ng-href="#/app/part6_79" ng-class="{'sbu-items-active':$root.url == '/app/part6_79'}">
+                        79. Avoiding of Herod's Territory
+                    </ion-item>                    
+                    <ion-item ng-href="#/app/part6_80" ng-class="{'sbu-items-active':$root.url == '/app/part6_80'}">
+                        80. Four Thousand Fed
+                    </ion-item>                    
+                    <ion-item ng-href="#/app/part6_81" ng-class="{'sbu-items-active':$root.url == '/app/part6_81'}">
+                        81. Third Withdrawal from Herod's Territory
+                    </ion-item>
+                    <ion-item ng-href="#/app/part6_81b" class="sub-list-section" ng-class="{'sbu-items-active':$root.url == '/app/part6_81b'}">
+                        b. The Great Confession
+                    </ion-item>
+                    <ion-item ng-href="#/app/part6_81c" class="sub-list-section" ng-class="{'sbu-items-active':$root.url == '/app/part6_81c'}">
+                        c. Passion Foretold
+                    </ion-item>
+                    <ion-item  ng-href="#/app/part6_81d" class="sub-list-section" ng-class="{'sbu-items-active':$root.url == '/app/part6_81d'}">
+                        d. The Transfiguration
+                    </ion-item>
+                    <ion-item  ng-href="#/app/part6_81e" class="sub-list-section" ng-class="{'sbu-items-active':$root.url == '/app/part6_81e'}">
+                        e. Healing the Demoniac Boy
+                    </ion-item>                           
+                    <ion-item  ng-href="#/app/part6_82" ng-class="{'sbu-items-active':$root.url == '/app/part6_82'}">
+                        82. Return to Galilee
+                    </ion-item>
+                    <ion-item ng-href="#/app/part6_83" ng-class="{'sbu-items-active':$root.url == '/app/part6_83'}">
+                        83. Tribute Money
+                    </ion-item>
+                    <ion-item  ng-href="#/app/part6_84" ng-class="{'sbu-items-active':$root.url == '/app/part6_84'}">
+                        84. Childlikeness
+                    </ion-item>
+                    <ion-item  ng-href="#/app/part6_85" ng-class="{'sbu-items-active':$root.url == '/app/part6_85'}">
+                        85. Forgiveness Between Brethren
+                    </ion-item>
+                    <ion-item ng-href="#/app/part6_86" ng-class="{'sbu-items-active':$root.url == '/app/part6_86'}">
+                        86. The Story of the Adulteress
+                    </ion-item>
+                    <ion-item ng-href="#/app/part6_87" ng-class="{'sbu-items-active':$root.url == '/app/part6_87'}">
+                        <a >87. The Private Journey to Jerusalem</a>
+                    </ion-item>
+                    <ion-item ng-href="#/app/part6_88" ng-class="{'sbu-items-active':$root.url == '/app/part6_88'}">
+                        88. Sacrifice for Christ's Service
+                    </ion-item>
+                    <ion-item  ng-href="#/app/part6_89" ng-class="{'sbu-items-active':$root.url == '/app/part6_89'}">
+                        89. The Feast of Tabernacles
+                    </ion-item>
+                    <ion-item  ng-href="#/app/part6_90" ng-class="{'sbu-items-active':$root.url == '/app/part6_90'}">
+                        90. The Story of the Adulteress
+                    </ion-item>
+                    <ion-item ng-href="#/app/part6_91" ng-class="{'sbu-items-active':$root.url == '/app/part6_91'}">
+                        91. Attempt to Stone Jesus
+                    </ion-item>
+                    <ion-item  ng-href="#/app/part6_92"  ng-class="{'sbu-items-active':$root.url == '/app/part6_92'}">
+                        92. Man Born Blind
+                    </ion-item>
+                    <ion-item  ng-href="#/app/part6_93" ng-class="{'sbu-items-active':$root.url == '/app/part6_93'}">
+                        93. The Good Shepherd
+                    </ion-item>
+                    <ion-item ng-href="#/app/part6_94" ng-class="{'sbu-items-active':$root.url == '/app/part6_94'}">
+                        94. Jesus Sends Out 70
+                    </ion-item>
+                    <ion-item  ng-href="#/app/part6_95" ng-class="{'sbu-items-active':$root.url == '/app/part6_95'}">
+                        95. Parable of the Good Samaritan
+                    </ion-item>
+                    <ion-item  ng-href="#/app/part6_96"  ng-class="{'sbu-items-active':$root.url == '/app/part6_96'}">
+                        96. Jesus the Guest of Martha and Mary
+                    </ion-item>
+                    <ion-item  ng-href="#/app/part6_97" ng-class="{'sbu-items-active':$root.url == '/app/part6_97'}">
+                        97. Prayer Taught
+                    </ion-item>
+                    <ion-item ng-href="#/app/part6_98" ng-class="{'sbu-items-active':$root.url == '/app/part6_98'}">
+                        98. Woman Healed on the Sabbath
+                    </ion-item>
+                    <ion-item  ng-href="#/app/part6_99"  ng-class="{'sbu-items-active':$root.url == '/app/part6_99'}">
+                        99. The Jews Attempt to Stone Jesus
+                    </ion-item>
+                    <ion-item  ng-href="#/app/part6_100"  ng-class="{'sbu-items-active':$root.url == '/app/part6_100'}">
+                        100. The Straight Gate
+                    </ion-item>
+                    <ion-item ng-href="#/app/part6_101" ng-class="{'sbu-items-active':$root.url == '/app/part6_101'}">
+                        101. Sabbath Healing
+                    </ion-item>
+                    <ion-item ng-href="#/app/part6_102" ng-class="{'sbu-items-active':$root.url == '/app/part6_102'}"> 
+                        102. Cost of Discipleship
+                    </ion-item>
+                    <ion-item ng-href="#/app/part6_103" ng-class="{'sbu-items-active':$root.url == '/app/part6_103'}">
+                        <a>103. Second Group of Parables</a>
+                    </ion-item>
+
+                    <ion-item ng-href="#/app/part6_103b" class="sub-list-section" ng-class="{'sbu-items-active':$root.url == '/app/part6_103b'}">
+                        b. The Lost Sheep
+                    </ion-item>
+                    <ion-item ng-href="#/app/part6_103c" class="sub-list-section" ng-class="{'sbu-items-active':$root.url == '/app/part6_103c'}">
+                        c. The Lost Coin 
+                    </ion-item>
+                    <ion-item  ng-href="#/app/part6_103d" class="sub-list-section" ng-class="{'sbu-items-active':$root.url == '/app/part6_103d'}">
+                        d. The Lost Son
+                    </ion-item>
+                    <ion-item  ng-href="#/app/part6_103e" class="sub-list-section" ng-class="{'sbu-items-active':$root.url == '/app/part6_103e'}">
+                        e. The Unrighteous Servant
+                    </ion-item>
+                    <ion-item ng-href="#/app/part6_103f" class="sub-list-section" ng-class="{'sbu-items-active':$root.url == '/app/part6_103f'}">
+                        f. The Rich Man and Lazarus
+                    </ion-item>
+                    <ion-item  ng-href="#/app/part6_103g" class="sub-list-section" ng-class="{'sbu-items-active':$root.url == '/app/part6_103g'}">
+                        g. Faith, and Service
+                    </ion-item>                            
+
+                    <ion-item  ng-href="#/app/part6_104"  ng-class="{'sbu-items-active':$root.url == '/app/part6_104'}">
+                        104. Raising of Lazarus
+                    </ion-item>
+                    <ion-item ng-href="#/app/part6_105"  ng-class="{'sbu-items-active':$root.url == '/app/part6_105'}">
+                        105. The Sanhedrin's Decree
+                    </ion-item>
+                    <ion-item ng-href="#/app/part6_106" ng-class="{'sbu-items-active':$root.url == '/app/part6_106'}">
+                        106. Ten Lepers
+                    </ion-item>
+                    <ion-item  ng-href="#/app/part6_107" ng-class="{'sbu-items-active':$root.url == '/app/part6_107'}">
+                        107. Parable of the Importunate Widow
+                    </ion-item>
+                    <ion-item  ng-href="#/app/part6_108" ng-class="{'sbu-items-active':$root.url == '/app/part6_108'}">
+                        108. Parable of the Pharisee and Publican
+                    </ion-item>
+                    <ion-item  ng-href="#/app/part6_109" ng-class="{'sbu-items-active':$root.url == '/app/part6_109'}">
+                        109. Jesus Teaches About Divorc
+                    </ion-item>
+                    <ion-item  ng-href="#/app/part6_110" ng-class="{'sbu-items-active':$root.url == '/app/part6_110'}">
+                        110. Jesus Blesses the Children
+                    </ion-item>
+                    <ion-item  ng-href="#/app/part6_111" ng-class="{'sbu-items-active':$root.url == '/app/part6_111'}">
+                        111. Peril of Riches
+                    </ion-item>
+                    <ion-item ng-href="#/app/part6_112"  ng-class="{'sbu-items-active':$root.url == '/app/part6_112'}">
+                        112. Foretelling His Passion
+                    </ion-item>
+                    <ion-item  ng-href="#/app/part6_113"  ng-class="{'sbu-items-active':$root.url == '/app/part6_113'}">
+                        113. Foretelling His Passion
+                    </ion-item>
+                    <ion-item  ng-href="#/app/part6_114" ng-class="{'sbu-items-active':$root.url == '/app/part6_114'}">
+                        114. Bartimaeus Healed
+                    </ion-item>
+
+
+                    <!-- PART SEVEN -->
+                    <ion-item class="odd header-item">
+                        <h1><strong>PART SEVEN</strong></h1>
+                        <h3> LAST WEEK OF JESUS MINISTRY </h3>
+                    </ion-item>
+
+                    <ion-item ng-href="#/app/part7_115" ng-class="{'sbu-items-active':$root.url == '/app/part7_115'}">
+                        115. Jesus Arrives at Bethany
+                    </ion-item>
+                    <ion-item ng-href="#/app/part7_116" ng-class="{'sbu-items-active':$root.url == '/app/part7_116'}">
+                        116. Jesus' Triumphant Entry
+                    </ion-item>
+                    <ion-item ng-href="#/app/part7_117" ng-class="{'sbu-items-active':$root.url == '/app/part7_117'}">
+                        117. Temple Cleansed
+                    </ion-item>
+                    <ion-item ng-href="#/app/part7_118" ng-class="{'sbu-items-active':$root.url == '/app/part7_118'}">
+                        118. Fig Tree Withered
+                    </ion-item>
+                    <ion-item ng-href="#/app/part7_119" ng-class="{'sbu-items-active':$root.url == '/app/part7_119'}">
+                        119. Third Group of Parables
+                    </ion-item>
+                    <ion-item ng-href="#/app/part7_119b" class="sub-list-section" ng-class="{'sbu-items-active':$root.url == '/app/part7_119b'}">
+                        B. The Two Sons
+                    </ion-item>
+                    <ion-item ng-href="#/app/part7_119c" class="sub-list-section" ng-class="{'sbu-items-active':$root.url == '/app/part7_119c'}">
+                        C. The Wicked Husbandmen
+                    </ion-item>
+                    <ion-item ng-href="#/app/part7_119d" class="sub-list-section" ng-class="{'sbu-items-active':$root.url == '/app/part7_119d'}">
+                        D. The Marriage of the King's Son
+                    </ion-item>
+
+                    <ion-item ng-href="#/app/part7_120" ng-class="{'sbu-items-active':$root.url == '/app/part7_120'}">
+                        120. Jewish Rulers Seek to Ensnare Jesus
+                    </ion-item>
+                    <ion-item ng-href="#/app/part7_120b" ng-class="{'sbu-items-active':$root.url == '/app/part7_120b'}">
+                        B. Sadducees and the Resurrection
+                    </ion-item>
+                    <ion-item ng-href="#/app/part7_120c" class="sub-list-section" ng-class="{'sbu-items-active':$root.url == '/app/part7_120c'}">
+                        C. The Great Commandment
+                    </ion-item>
+                    <ion-item ng-href="#/app/part7_120d" class="sub-list-section" ng-class="{'sbu-items-active':$root.url == '/app/part7_120d'}">
+                        D. Jesus' Question
+                    </ion-item>
+
+                    <ion-item ng-href="#/app/part7_121" ng-class="{'sbu-items-active':$root.url == '/app/part7_121'}">
+                        121. Denunciation of Scribes and Pharisees
+                    </ion-item>
+                    <ion-item ng-href="#/app/part7_122" ng-class="{'sbu-items-active':$root.url == '/app/part7_122'}">
+                        122. The Widow's Mites
+                    </ion-item>
+                    <ion-item ng-href="#/app/part7_123" ng-class="{'sbu-items-active':$root.url == '/app/part7_123'}">
+                        123. He Shall Draw All Men To Him
+                    </ion-item>
+                    <ion-item ng-href="#/app/part7_124" ng-class="{'sbu-items-active':$root.url == '/app/part7_124'}">
+                        124. Destruction of Jerusalem Foretold
+                    </ion-item>
+                    <ion-item ng-href="#/app/part7_125" ng-class="{'sbu-items-active':$root.url == '/app/part7_125'}">
+                        125. The Second Coming of Christ
+                    </ion-item>
+                    <ion-item ng-href="#/app/part7_126" ng-class="{'sbu-items-active':$root.url == '/app/part7_126'}">
+                        126. The Final Judgment
+                    </ion-item>
+                    <ion-item ng-href="#/app/part7_127" ng-class="{'sbu-items-active':$root.url == '/app/part7_127'}">
+                        127. Judas Bargains for Jesus Death
+                    </ion-item>
+                    <ion-item ng-href="#/app/part7_128" ng-class="{'sbu-items-active':$root.url == '/app/part7_128'}">
+                        128. Preparation for Passover
+                    </ion-item>
+                    <ion-item ng-href="#/app/part7_129" ng-class="{'sbu-items-active':$root.url == '/app/part7_129'}">
+                        129. The Passover Meal
+                    </ion-item>
+                    <ion-item ng-href="#/app/part7_130" ng-class="{'sbu-items-active':$root.url == '/app/part7_130'}">
+                        130. Judas' Betrayal Foretold
+                    </ion-item>
+                    <ion-item ng-href="#/app/part7_131" ng-class="{'sbu-items-active':$root.url == '/app/part7_131'}">
+                        131. The Lord's Supper Instituted
+                    </ion-item>
+                    <ion-item ng-href="#/app/part7_132" ng-class="{'sbu-items-active':$root.url == '/app/part7_132'}">
+                        132. Farewell Discourse to Disciples
+                    </ion-item>
+                    <ion-item ng-href="#/app/part7_133" ng-class="{'sbu-items-active':$root.url == '/app/part7_133'}">
+                        133. The Lord's Prayer
+                    </ion-item>
+                    <ion-item ng-href="#/app/part7_134" ng-class="{'sbu-items-active':$root.url == '/app/part7_134'}">
+                        134. Going to Gethsemane
+                    </ion-item>
+                    <ion-item ng-href="#/app/part7_135" ng-class="{'sbu-items-active':$root.url == '/app/part7_135'}">
+                        135. Jesus Betrayed, Arrested, and Forsaken
+                    </ion-item>
+                    <ion-item ng-href="#/app/part7_136" ng-class="{'sbu-items-active':$root.url == '/app/part7_136'}">
+                        136. Examination by Annas
+                    </ion-item>
+                    <ion-item ng-href="#/app/part7_137" ng-class="{'sbu-items-active':$root.url == '/app/part7_137'}">
+                        137. Caiaphas and the Sanhedrin
+                    </ion-item>
+                    <ion-item ng-href="#/app/part7_138" ng-class="{'sbu-items-active':$root.url == '/app/part7_138'}">
+                        138. Peter Denies the Lord
+                    </ion-item>
+                    <ion-item ng-href="#/app/part7_139" ng-class="{'sbu-items-active':$root.url == '/app/part7_139'}">
+                        139. Jesus Formally Condemned
+                    </ion-item>
+                    <ion-item ng-href="#/app/part7_140" ng-class="{'sbu-items-active':$root.url == '/app/part7_140'}">
+                        140. Jesus Before Pilate
+                    </ion-item>
+                    <ion-item ng-href="#/app/part7_141" ng-class="{'sbu-items-active':$root.url == '/app/part7_141'}">
+                        141. Jesus Before Herod Antipas
+                    </ion-item>
+                    <ion-item ng-href="#/app/part7_142" ng-class="{'sbu-items-active':$root.url == '/app/part7_142'}">
+                        142. Pilate Sentences Jesus
+                    </ion-item>
+                    <ion-item ng-href="#/app/part7_143" ng-class="{'sbu-items-active':$root.url == '/app/part7_143'}">
+                        143. Suicide of Judas
+                    </ion-item>
+                    <ion-item ng-href="#/app/part7_144" ng-class="{'sbu-items-active':$root.url == '/app/part7_144'}">
+                        144. The Crucifixion
+                    </ion-item>
+                    <ion-item ng-href="#/app/part7_144b" class="sub-list-section" ng-class="{'sbu-items-active':$root.url == '/app/part7_144b'}">
+                        B. Jesus Crucified
+                    </ion-item>
+                    <ion-item ng-href="#/app/part7_144c" class="sub-list-section" ng-class="{'sbu-items-active':$root.url == '/app/part7_144c'}">
+                        C. Three Hours of Darkness
+                    </ion-item>
+                    <ion-item ng-href="#/app/part7_144d" class="sub-list-section" ng-class="{'sbu-items-active':$root.url == '/app/part7_144d'}">
+                        D. Jesus Found to Be Dead
+                    </ion-item>
+
+
+
+                    <!-- PART EIGHT -->
+                    <ion-item class="odd header-item">
+                        <h1><strong>PART EIGHT</strong></h1>
+                        <h3> RESURRECTION OF JESUS </h3>
+                    </ion-item>
+                    <ion-item ng-href="#/app/part8_145" ng-class="{'sbu-items-active':$root.url == '/app/part8_145'}">
+                        145. Angels Announce the Resurrection
+                    </ion-item>
+                    <ion-item ng-href="#/app/part8_146" ng-class="{'sbu-items-active':$root.url == '/app/part8_146'}">
+                        146. Appearances of the Risen Christ
+                    </ion-item>
+                    <ion-item ng-href="#/app/part8_147" ng-class="{'sbu-items-active':$root.url == '/app/part8_147'}">
+                        147. Guards Report to the Jewish Rulers
+                    </ion-item>
+                    <ion-item ng-href="#/app/part8_148" ng-class="{'sbu-items-active':$root.url == '/app/part8_148'}">
+                        148. Third and Fourth Appearances of Jesus
+                    </ion-item>                    
+                    <ion-item ng-href="#/app/part8_149" ng-class="{'sbu-items-active':$root.url == '/app/part8_149'}">
+                        149. Fifth Appearance of Jesus
+                    </ion-item>                    
+                    <ion-item ng-href="#/app/part8_150" ng-class="{'sbu-items-active':$root.url == '/app/part8_150'}">
+                        150. Sixth Appearance of Jesus
+                    </ion-item>
+                    <ion-item ng-href="#/app/part8_151" ng-class="{'sbu-items-active':$root.url == '/app/part8_151'}">
+                        151.  Seventh Appearance of Jesus
+                    </ion-item>
+                    <ion-item ng-href="#/app/part8_152" ng-class="{'sbu-items-active':$root.url == '/app/part8_152'}">
+                        152. Eighth Appearance of Jesus
+                    </ion-item>
+                    <ion-item ng-href="#/app/part8_153" ng-class="{'sbu-items-active':$root.url == '/app/part8_153'}">
+                        153. The Great Commission
+                    </ion-item>
+                    <ion-item ng-href="#/app/part8_154" ng-class="{'sbu-items-active':$root.url == '/app/part8_154'}">
+                        154. Ninth and Tenth Appearances of Jesus
+                    </ion-item>
+
+                    <ion-item ng-href="#/app/part8_155" ng-class="{'sbu-items-active':$root.url == '/app/part8_155'}">
+                        155. The Ascension
+                    </ion-item>
+                    <ion-item ng-href="#/app/part8_156" ng-class="{'sbu-items-active':$root.url == '/app/part8_156'}">
+                        156. Our Lord Appears After His Ascension
+                    </ion-item>
+                </ion-list>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

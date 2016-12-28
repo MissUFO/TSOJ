@@ -1,0 +1,87 @@
+<ion-view >
+    <ion-nav-buttons side="right" class="gb">
+        <div class="upper">
+            <a style="color: white;" class="button button-icon welcome-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/home" ng-class="{'sbu-header-items-active':$root.headerurl == 'home'}"><i class="ion-ios-home-outline"></i>WELCOME</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part1_1" ng-class="{'sbu-header-items-active':$root.headerurl == 'part1' || $root.headerurl == 'mp1'}">Part 1</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part2_14" ng-class="{'sbu-header-items-active':$root.headerurl == 'part2'}">Part 2</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part3_15" ng-class="{'sbu-header-items-active':$root.headerurl == 'part3' || $root.headerurl == 'mp3'}">Part 3</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part4_21" ng-class="{'sbu-header-items-active':$root.headerurl == 'part4' || $root.headerurl == 'mp4'}">Part 4</a> 
+        </div>
+
+        <div class="upper">
+            <a style="color: white;" class="button button-icon invite-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/invitation" ng-class="{'sbu-header-items-active':$root.headerurl == 'invitation'}"><i class="ion-ios-email-outline"></i>INVITATION</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part5_37" ng-class="{'sbu-header-items-active':$root.headerurl == 'part5' || $root.headerurl == 'mp5'}">Part 5</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part6_76" ng-class="{'sbu-header-items-active':$root.headerurl == 'part6' || $root.headerurl == 'mp6'}">Part 6</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+              ng-click="clickCreaElencoSpese()" ng-href="#/app/part7_115" ng-class="{'sbu-header-items-active':$root.headerurl == 'part7' || $root.headerurl == 'mp7'}">Part 7</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part8_145" ng-class="{'sbu-header-items-active':$root.headerurl == 'part8' || $root.headerurl == 'mp8'}">Part 8</a>  
+        </div>     
+    </ion-nav-buttons>
+
+
+
+
+    <ion-content scroll="true">
+        <div class="left-arrow">
+            <a ng-href="#/app/mp6"><i class="ion-arrow-left-c side-menu-btn"></i></a>
+        </div>
+        <div class="back-bg">
+
+            <div class="wrapper">
+                <div class="section-one">
+
+                    <h3>The Transfiguration</h3>
+                    <p>Six days after later, Jesus took Peter, James and John to a mountain where they could be by themselves and pray.</p> 
+
+                    <p>While they were praying, the clothes that Jesus was wearing dazzled, and he was transfigured before them. </p>
+
+                    <p>His face shone like the sun and his clothes became white as light.</p>
+
+                    <p>Before long two more men appeared with Jesus: <a href="javascript:void(0)" ng-click="popup('lawsofmoses')">Moses</a> and <a href="javascript:void(0)" ng-click="popup('elijah')">Elijah</a>, and they began talking with Jesus.</p>
+
+                    <p>The two men also had a glorious appearance and they spoke about the <a href="javascript:void(0)" ng-click="popup('sacrifices')">death of Jesus</a> and what he was going to accomplish in Jerusalem.</p>
+
+                    <p>The three disciples saw this and were amazed and afraid. Peter, not knowing what he was really saying, said:</p>
+
+                    <p>Let's built three tabernacles, one for you, one for Moses and the other for Elijah.</p>
+
+                    <p>While Peter was still speaking a bright cloud came over them and they were very afraid. A voice came out of the cloud and said:</p>
+
+                    <p>This is my beloved Son, and I am very pleased with him; listen to him.</p>
+
+                    <p>The disciples fell on the faces with fear. Jesus touched each one of them, told them to stand up and not be afraid.</p>
+
+                    <p>Suddenly the disciples looked around and everyone was gone except for Jesus and themselves.</p>
+
+                    <p>As they traveled down the mountain he told the three that they should not tell anyone about this until after he had risen from the dead.</p>
+
+                    <p>So they kept this to themselves, but wondered what Jesus meant when he said he would rise from the dead.</p>
+
+                    <p>Later his disciples asked him why the <a href="javascript:void(0)" ng-click="popup('scribes')">scribes</a> kept saying that Elijah must come before the <a href="javascript:void(0)" ng-click="popup('messiah')">Messiah</a>.</p>
+
+                    <p>Jesus told them, Yes, it is true that Elijah must come first to restore all things. But I tell you that Elijah has already come and they did not recognize him.</p>
+
+                    <p>The disciples understood that he was talking about John the Baptist. </p>
+
+                </div>   
+            </div>
+        </div>
+
+    </ion-content>
+    <ion-footer-bar class="bar-assertive social-footer">
+        <ul class="footer-pre-nex">
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part6_81c">PREVIOUS</a></li>
+            <li class="listen-block"><a href="javascript:void(0)" ng-click="playAudio($event)" class="button button-light playAudio"><i class="ion-android-volume-mute"><span>Listen audio</span></i></a>                 <a href="javascript:void(0)" class="button button-light pauseAudio" style="display:none"><i class="ion-volume-mute">Pause Audio</i></a></li>
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part6_81e">NEXT</a></li>
+        </ul>
+    </ion-footer-bar>
+</ion-view>

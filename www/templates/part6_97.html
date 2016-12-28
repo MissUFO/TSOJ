@@ -1,0 +1,84 @@
+<ion-view >
+    <ion-nav-buttons side="right" class="gb">
+        <div class="upper">
+            <a style="color: white;" class="button button-icon welcome-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/home" ng-class="{'sbu-header-items-active':$root.headerurl == 'home'}"><i class="ion-ios-home-outline"></i>WELCOME</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part1_1" ng-class="{'sbu-header-items-active':$root.headerurl == 'part1' || $root.headerurl == 'mp1'}">Part 1</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part2_14" ng-class="{'sbu-header-items-active':$root.headerurl == 'part2'}">Part 2</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part3_15" ng-class="{'sbu-header-items-active':$root.headerurl == 'part3' || $root.headerurl == 'mp3'}">Part 3</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part4_21" ng-class="{'sbu-header-items-active':$root.headerurl == 'part4' || $root.headerurl == 'mp4'}">Part 4</a> 
+        </div>
+
+        <div class="upper">
+            <a style="color: white;" class="button button-icon invite-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/invitation" ng-class="{'sbu-header-items-active':$root.headerurl == 'invitation'}"><i class="ion-ios-email-outline"></i>INVITATION</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part5_37" ng-class="{'sbu-header-items-active':$root.headerurl == 'part5' || $root.headerurl == 'mp5'}">Part 5</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part6_76" ng-class="{'sbu-header-items-active':$root.headerurl == 'part6' || $root.headerurl == 'mp6'}">Part 6</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+              ng-click="clickCreaElencoSpese()" ng-href="#/app/part7_115" ng-class="{'sbu-header-items-active':$root.headerurl == 'part7' || $root.headerurl == 'mp7'}">Part 7</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part8_145" ng-class="{'sbu-header-items-active':$root.headerurl == 'part8' || $root.headerurl == 'mp8'}">Part 8</a>  
+        </div>     
+    </ion-nav-buttons>
+
+
+
+    <ion-content scroll="true">
+        <div class="left-arrow">
+            <a ng-href="#/app/mp6"><i class="ion-arrow-left-c side-menu-btn"></i></a>
+        </div>
+        <div class="back-bg">
+
+            <div class="wrapper">
+                <div class="section-one">
+                    <h1>Prayer Taught</h1>
+
+                    <p>Jesus and his <a href="javascript:void(0)" ng-click="popup('apostles')">12 disciples</a> were praying, and after the prayer, one of the disciples said to the Jesus:</p>
+
+                    <p>Lord teach us to pray, just like John the Baptist taught his disciples.</p>
+
+                    <p>Jesus said to them:</p>
+
+                    <p>When you pray, say, Father, Holy be your name. May your kingdom come. Give us today our daily bread, and forgive us our sins, for we also forgive everyone that is <a href="javascript:void(0)" ng-click="popup('remission')">indebted</a> to us.  Bring us not into temptation.</p>
+
+                    <p>Then Jesus said to them:</p>
+
+                    <p>Which one of you who has a friend? Would you go to him at midnight and say to him:</p>
+
+                    <p>Friend, lend me three loaves of bread. A friend of mine has just arrived from a journey and I do not have anything to feed him.</p>
+                    <img src="img/prayer.png" class="img-responsive" name="prayer" title="prayer" />
+                    <p>Would the friend answer:</p>
+
+                    <p>Don't bother me now, all my children are in bed and it is too late. I cannot get up and help you?</p>
+
+                    <p>I tell you this, even though he would not get up and help you because of your friendship, he would get up just to get rid of the nuisance and noise you caused at the midnight hour.</p>
+
+                    <p>I say to you:</p>
+
+                    <p>Ask, and it will be given to you.</p>
+                    <p>Seek, and you will find.</p>
+                    <p>Knock, and it will be opened to you.</p>
+
+                    <p>If a son asks for a loaf of bread will the father give him a stone? Or if he asks for a fish, will he give him a serpent? Or if he asks for an egg will he give him a scorpion?</p>
+
+                    <p>If you, who are evil, know how to give good gifts to your children, how much more will your heavenly Father give the <a href="javascript:void(0)" ng-click="popup('holispirit')">Holy Spirit</a> to them who ask him?</p>
+
+                </div>   
+            </div>
+        </div>
+
+    </ion-content>
+    <ion-footer-bar class="bar-assertive social-footer">
+        <ul class="footer-pre-nex">
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part6_96">PREVIOUS</a></li>
+            <li class="listen-block"><a href="javascript:void(0)" ng-click="playAudio($event)" class="button button-light playAudio"><i class="ion-android-volume-mute"><span>Listen audio</span></i></a>                 <a href="javascript:void(0)" class="button button-light pauseAudio" style="display:none"><i class="ion-volume-mute">Pause Audio</i></a></li>
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part6_98">NEXT</a></li>
+        </ul>
+    </ion-footer-bar>
+</ion-view>

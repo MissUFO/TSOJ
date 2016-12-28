@@ -1,0 +1,92 @@
+<ion-view >
+    <ion-nav-buttons side="right" class="gb">
+        <div class="upper">
+            <a style="color: white;" class="button button-icon welcome-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/home" ng-class="{'sbu-header-items-active':$root.headerurl == 'home'}"><i class="ion-ios-home-outline"></i>WELCOME</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part1_1" ng-class="{'sbu-header-items-active':$root.headerurl == 'part1' || $root.headerurl == 'mp1'}">Part 1</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part2_14" ng-class="{'sbu-header-items-active':$root.headerurl == 'part2'}">Part 2</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part3_15" ng-class="{'sbu-header-items-active':$root.headerurl == 'part3' || $root.headerurl == 'mp3'}">Part 3</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part4_21" ng-class="{'sbu-header-items-active':$root.headerurl == 'part4' || $root.headerurl == 'mp4'}">Part 4</a> 
+        </div>
+        <div class="upper">
+            <a style="color: white;" class="button button-icon invite-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/invitation" ng-class="{'sbu-header-items-active':$root.headerurl == 'invitation'}"><i class="ion-ios-email-outline"></i>INVITATION</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part5_37" ng-class="{'sbu-header-items-active':$root.headerurl == 'part5' || $root.headerurl == 'mp5'}">Part 5</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part6_76" ng-class="{'sbu-header-items-active':$root.headerurl == 'part6' || $root.headerurl == 'mp6'}">Part 6</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part7_115" ng-class="{'sbu-header-items-active':$root.headerurl == 'part7' || $root.headerurl == 'mp7'}">Part 7</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part8_145" ng-class="{'sbu-header-items-active':$root.headerurl == 'part8' || $root.headerurl == 'mp8'}">Part 8</a>  
+        </div>     
+    </ion-nav-buttons>
+
+
+
+    <ion-content scroll="true">
+        <div class="left-arrow">
+            <a ng-href="#/app/mp6"><i class="ion-arrow-left-c side-menu-btn"></i></a>
+        </div>
+        <div class="back-bg">
+
+            <div class="wrapper">
+                <div class="section-one">
+                    <h3>The Rich Man and Lazarus</h3>
+
+                    <p>Jesus said:</p>
+
+                    <p>There was a rich man, and he was clothed in the purple robes and wore the finest linen, eating sumptuous meals every day.</p>
+
+                    <p>And a beggar named Lazarus was laying at the gate of the rich man's resort, full of sores.</p>
+
+                    <p>The beggar was hoping to eat some of the crumbs that fell from the rich man's table. While he lay at the gate in his misery the dogs would come and lick his sores.</p>
+
+                    <p>One day the beggar died and the <a href="javascript:void(0)" ng-click="popup('angel')">angels</a> carried him into <a href="javascript:void(0)" ng-click="popup('abraham')">Abraham's</a> bosom.</p>
+
+                    <p>The rich man also died and was buried, and found himself in <a href="javascript:void(0)" ng-click="popup('hell')">Hell</a>. As he was being tormented, he lifted his eyes and saw Abraham off in the distance, and Lazarus in his bosom.</p>
+
+                    <img src="img/flowerwallred.png" class="img-responsive" name="flowerwallred" title="flowerwallred" />
+                    <p>And the tormented man cried and said:</p>
+
+                    <p>Father Abraham, have mercy on me, and send Lazarus that he may dip the tip of his finger into the water and cool my tongue. I am in anguish in this flame.</p>
+
+                    <p>But Abraham said:</p>
+
+                    <p>Son, remember that you in your lifetime received good things, and Lazarus received evil things. But here, he is comforted and you are in anguish.</p>
+
+                    <p>And besides, there is a great gulf between us that neither one of us can bridge.</p>
+
+                    <p>And the rich man said:</p>
+
+                    <p>I beg you Father Abraham to let Lazarus go to my father's house and tell my five brothers about this place so they can avoid this place of torment.</p>
+
+                    <p>Abraham said:</p>
+
+                    <p>Your brothers have <a href="javascript:void(0)" ng-click="popup('lawsofmoses')">Moses</a> and the <a href="javascript:void(0)" ng-click="popup('prophesied')">prophets</a>.</p>
+
+                    <p>The tormented man said:</p>
+
+                    <p>No, Father Abraham. If one goes to them from the dead, they will <a href="javascript:void(0)" ng-click="popup('repent')">repent</a>.</p>
+
+                    <p>Abraham answered him:</p>
+
+                    <p>If they do not listen to Moses and the prophets, they will not be persuaded by someone who has risen from the dead.</p>
+
+                </div>   
+            </div>
+        </div>
+
+    </ion-content>
+    <ion-footer-bar class="bar-assertive social-footer">
+        <ul class="footer-pre-nex">
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part6_103e">PREVIOUS</a></li>
+            <li class="listen-block"><a href="javascript:void(0)" ng-click="playAudio($event)" class="button button-light playAudio"><i class="ion-android-volume-mute"><span>Listen audio</span></i></a>                 <a href="javascript:void(0)" class="button button-light pauseAudio" style="display:none"><i class="ion-volume-mute">Pause Audio</i></a></li>
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part6_103g">NEXT</a></li>
+        </ul>
+    </ion-footer-bar>
+</ion-view>

@@ -1,0 +1,88 @@
+<ion-view >
+    <ion-nav-buttons side="right" class="gb">
+        <div class="upper">
+            <a style="color: white;" class="button button-icon welcome-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/home" ng-class="{'sbu-header-items-active':$root.headerurl == 'home'}"><i class="ion-ios-home-outline"></i>WELCOME</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part1_1" ng-class="{'sbu-header-items-active':$root.headerurl == 'part1' || $root.headerurl == 'mp1'}">Part 1</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part2_14" ng-class="{'sbu-header-items-active':$root.headerurl == 'part2'}">Part 2</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part3_15" ng-class="{'sbu-header-items-active':$root.headerurl == 'part3' || $root.headerurl == 'mp3'}">Part 3</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part4_21" ng-class="{'sbu-header-items-active':$root.headerurl == 'part4' || $root.headerurl == 'mp4'}">Part 4</a> 
+        </div>
+
+        <div class="upper">
+            <a style="color: white;" class="button button-icon invite-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/invitation" ng-class="{'sbu-header-items-active':$root.headerurl == 'invitation'}"><i class="ion-ios-email-outline"></i>INVITATION</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part5_37" ng-class="{'sbu-header-items-active':$root.headerurl == 'part5' || $root.headerurl == 'mp5'}">Part 5</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part6_76" ng-class="{'sbu-header-items-active':$root.headerurl == 'part6' || $root.headerurl == 'mp6'}">Part 6</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part7_115" ng-class="{'sbu-header-items-active':$root.headerurl == 'part7' || $root.headerurl == 'mp7'}">Part 7</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part8_145" ng-class="{'sbu-header-items-active':$root.headerurl == 'part8' || $root.headerurl == 'mp8'}">Part 8</a>  
+        </div>
+
+    </ion-nav-buttons>
+
+
+
+    <ion-content scroll="true">
+        <div class="left-arrow">
+            <a ng-href="#/app/mp4"><i class="ion-arrow-left-c side-menu-btn"></i></a>
+        </div>
+        <div class="back-bg">
+
+            <div class="wrapper">
+                <div class="section-one">
+                    <h1>Jesus Calls Four Fishermen </h1>
+                    <img src="img/seaofgalfishermen.png" class="img-responsive" name="seaofgalfishermen" title="seaofgalfishermen" />
+                    <p>As Jesus was walking along the <a href="javascript:void(0)" ng-click="popup('seaofgalilee')">sea of Galilee</a>, he saw two brothers, Simon and his brother Andrew, fishing with nets in the sea.</p>
+
+                    <p>Jesus said to them:</p>
+
+                    <p>Come follow me, and I will make you fishers of men.</p>
+
+                    <p>They followed Jesus.</p>
+
+                    <p>As Jesus went a little farther he saw two more brothers fishing, James, son of Zebedee, and his brother, John. They were both in the fishing boat with their father, mending their nets. Jesus called to them.</p>
+
+                    <p>Great crowds had gathered around Jesus to hear him teach and preach the word of God as he was standing by the Sea of Galilee.</p>
+
+                    <p>Jesus saw a couple of empty boats near the shore. He got into one of the boats, which belonged to Simon, and asked him to shove the boat a little ways from the shore. Jesus sat in the boat and began teaching to the crowd.</p>
+
+                    <p>When Jesus was done teaching, he told Simon to get into the boat with his nets and head for deeper waters to put out his nets.</p>
+
+                    <p>Simon said:</p>
+
+                    <p>Master we have worked hard all night and have been unable to catch any fish, but if you say so I will put the nets down as you wish.</p>
+
+                    <p>As soon as Peter did as Jesus had requested, they were filled with many fish, so many that the nets started to tear. They called for their partners in a nearby boat to help. They came and filled up both boats with so many fish that the boats began to sink.</p>
+
+                    <p>When Simon Peter saw this, he fell down at Jesus' knees and said:</p>
+
+                    <p>Go away from me; for I am a sinful man, O Lord.</p>
+
+                    <p>He was filled with amazement, as was everyone else who saw all the fish that filled the boats. James and John were partners with Simon in the fishing business.</p>
+
+                    <p>Jesus said to Simon:</p>
+
+                    <p>Don't be afraid: From now on you will catch men.</p>
+
+                    <p>And as soon as they got the boats to shore, they immediately left their nets and their boats and their father and followed Jesus.</p>
+                </div>   
+            </div>
+        </div>
+
+    </ion-content>
+    <ion-footer-bar class="bar-assertive social-footer">
+        <ul class="footer-pre-nex">
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part4_29">PREVIOUS</a></li>
+            <li class="listen-block"><a href="javascript:void(0)" ng-click="playAudio($event)" class="button button-light playAudio"><i class="ion-android-volume-mute"><span>Listen audio</span></i></a>                 <a href="javascript:void(0)" class="button button-light pauseAudio" style="display:none"><i class="ion-volume-mute">Pause Audio</i></a></li>
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part4_31">NEXT</a></li>
+        </ul>
+    </ion-footer-bar>
+</ion-view>

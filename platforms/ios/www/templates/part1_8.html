@@ -1,0 +1,78 @@
+<ion-view >
+    <ion-nav-buttons side="right" class="gb">
+        <div class="upper">
+            <a style="color: white;" class="button button-icon welcome-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/home" ng-class="{'sbu-header-items-active':$root.headerurl == 'home'}"><i class="ion-ios-home-outline"></i>WELCOME</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part1_1" ng-class="{'sbu-header-items-active':$root.headerurl == 'part1' || $root.headerurl == 'mp1'}">Part 1</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part2_14" ng-class="{'sbu-header-items-active':$root.headerurl == 'part2'}">Part 2</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part3_15" ng-class="{'sbu-header-items-active':$root.headerurl == 'part3' || $root.headerurl == 'mp3'}">Part 3</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part4_21" ng-class="{'sbu-header-items-active':$root.headerurl == 'part4' || $root.headerurl == 'mp4'}">Part 4</a> 
+        </div>
+
+        <div class="upper">
+            <a style="color: white;" class="button button-icon invite-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/invitation" ng-class="{'sbu-header-items-active':$root.headerurl == 'invitation'}"><i class="ion-ios-email-outline"></i>INVITATION</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part5_37" ng-class="{'sbu-header-items-active':$root.headerurl == 'part5' || $root.headerurl == 'mp5'}">Part 5</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part6_76" ng-class="{'sbu-header-items-active':$root.headerurl == 'part6' || $root.headerurl == 'mp6'}">Part 6</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part7_115" ng-class="{'sbu-header-items-active':$root.headerurl == 'part7' || $root.headerurl == 'mp7'}">Part 7</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part8_145" ng-class="{'sbu-header-items-active':$root.headerurl == 'part8' || $root.headerurl == 'mp8'}">Part 8</a>  
+        </div>
+    </ion-nav-buttons>
+    <ion-content scroll="true">
+        <div class="left-arrow">
+            <a ng-href="#/app/mp1"><i class="ion-arrow-left-c side-menu-btn"></i></a>
+        </div>
+        <div class="back-bg">
+
+            <div class="wrapper">
+                <div class="section-one">
+                    <h1>The Shepherds Told of the Birth of Jesus</h1>
+                    <p>Nearby there were shepherds in the fields who were working the night shift over their flocks.</p>
+                    <img src="img/bethlehem_shepards_field.png" class="img-responsive" name="bethlehem_shepards_field" title="bethlehem_shepards_field" />
+                    <p>An angel of the Lord stood by them, and the glory of the Lord shone all around them.</p>
+
+                    <p>But the shepherds were very afraid, as the <a href="javascript:void(0)" ng-click="popup('angel')">angel</a> said to them:</p>
+
+                    <p>Don't be afraid; for behold, I bring you good tidings of great joy which will be to all the people.</p>
+
+                    <p>For today, in the city of <a href="javascript:void(0)" ng-click="popup('david')">David</a>, a savior, who is <a href="javascript:void(0)" ng-click="popup('christ')">Christ</a> the Lord, has been born.</p>
+
+                    <p>And this will be the sign: you will find the babe wrapped in swaddling clothes and lying in a manger.</p>
+
+                    <p>Suddenly, there appeared a host of angels, all praising God and saying, Glory to God in the highest, and on earth peace among men in whom he is well pleased.</p>
+
+                    <p>After the angels had left them and returned to heaven, the shepherds said to each other</p>
+
+                    <p>Let's go to <a href="javascript:void(0)" ng-click="popup('bethlehem')">Bethlehem</a> right now and see this thing that has happened, which the Lord has made known to us.</p>
+
+                    <p>They immediately went and found Mary, Joseph and the baby lying in the manger.</p>
+
+                    <p>When they saw the baby Jesus, they made known what had been told about the child.</p>
+
+                    <p>Everyone who heard it wondered about the things the shepherds reported.</p>
+
+                    <p>But Mary kept all these sayings to herself, pondering them in her heart.</p>
+
+                    <p>Then the shepherds returned to their fields, glorifying and praising God for all the things that they had heard and seen.</p>
+
+                </div>   
+            </div>
+        </div>
+
+    </ion-content>
+    <ion-footer-bar class="bar-assertive social-footer">
+        <ul class="footer-pre-nex">
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part1_7">PREVIOUS</a></li>
+            <li class="listen-block"><a href="javascript:void(0)" ng-click="playAudio($event)" class="button button-light playAudio"><i class="ion-android-volume-mute"><span>Listen audio</span></i></a>                 <a href="javascript:void(0)" class="button button-light pauseAudio" style="display:none"><i class="ion-volume-mute">Pause Audio</i></a></li>
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part1_9">NEXT</a></li>
+        </ul>
+    </ion-footer-bar>
+</ion-view>

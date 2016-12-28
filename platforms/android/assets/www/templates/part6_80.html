@@ -1,0 +1,90 @@
+<ion-view >
+     <ion-nav-buttons side="right" class="gb">
+        <div class="upper">
+            <a style="color: white;" class="button button-icon welcome-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/home" ng-class="{'sbu-header-items-active':$root.headerurl == 'home'}"><i class="ion-ios-home-outline"></i>WELCOME</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part1_1" ng-class="{'sbu-header-items-active':$root.headerurl == 'part1' || $root.headerurl == 'mp1'}">Part 1</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part2_14" ng-class="{'sbu-header-items-active':$root.headerurl == 'part2'}">Part 2</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part3_15" ng-class="{'sbu-header-items-active':$root.headerurl == 'part3' || $root.headerurl == 'mp3'}">Part 3</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part4_21" ng-class="{'sbu-header-items-active':$root.headerurl == 'part4' || $root.headerurl == 'mp4'}">Part 4</a> 
+        </div>
+
+        <div class="upper">
+            <a style="color: white;" class="button button-icon invite-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/invitation" ng-class="{'sbu-header-items-active':$root.headerurl == 'invitation'}"><i class="ion-ios-email-outline"></i>INVITATION</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part5_37" ng-class="{'sbu-header-items-active':$root.headerurl == 'part5' || $root.headerurl == 'mp5'}">Part 5</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part6_76" ng-class="{'sbu-header-items-active':$root.headerurl == 'part6' || $root.headerurl == 'mp6'}">Part 6</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+              ng-click="clickCreaElencoSpese()" ng-href="#/app/part7_115" ng-class="{'sbu-header-items-active':$root.headerurl == 'part7' || $root.headerurl == 'mp7'}">Part 7</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part8_145" ng-class="{'sbu-header-items-active':$root.headerurl == 'part8' || $root.headerurl == 'mp8'}">Part 8</a>  
+        </div>     
+    </ion-nav-buttons>
+
+
+
+    <ion-content scroll="true">
+        <div class="left-arrow">
+            <a ng-href="#/app/mp6"><i class="ion-arrow-left-c side-menu-btn"></i></a>
+        </div>
+        <div class="back-bg">
+
+            <div class="wrapper">
+                <div class="section-one">
+                    <h1>Four Thousand Fed</h1>
+                    <p>Jesus was directed to a man who was deaf and spoke with an impediment.</p>
+
+                    <p>They asked Jesus to lay hands on him. Jesus took him away from the crowd that had gathered around him.</p>
+
+                    <p>Jesus put his fingers into the man's ears and spat and touched his tongue. Looking up to heaven, Jesus sighed and said in Aramaic:</p>
+
+                    <p>Be opened.</p>
+
+                    <p>The man's ears were immediately opened. The speech impediment was healed and the man spoke plainly.</p>
+
+                    <p>He told the man not to tell anyone what had happened. But the man went away and told everyone he met.</p>
+
+                    <p>Everyone was astonished and began to say:</p>
+
+                    <p>He can even make the deaf to hear and the dumb to speak.</p>
+
+                    <img src="img/loaves.png" class="img-responsive" name="loaves" title="loaves" />
+                    <p>When the crowds saw the lame walking and the blind seeing, and the deaf hearing, they glorified the God of Israel.</p>
+
+                    <p>The crowd that came to Jesus had grown to about 4,000 men. They stayed with Jesus for three days.</p>
+
+                    <p>On the third day, Jesus spoke to his <a href="javascript:void(0)" ng-click="popup('apostles')">12 disciples</a> and told them that he had compassion for the crowds.</p>
+
+                    <p>Jesus knew that they had not eaten in three days and he did not want to send them back to their homes until they had eaten and regained some of their strength.</p>
+
+                    <p>Jesus did not want them to faint from hunger on their journey back home, for some had traveled a great distance.</p>
+
+                    <p>The disciples asked Jesus where they were going get enough bread to feed such a large crowd, since they were in a desert area with no provisions nearby.</p>
+
+                    <p>Jesus asked his disciples how many loaves of bread they had. The disciples answered that they had seven loaves and a few small fish.</p>
+
+                    <p>Jesus took the loaves, gave thanks and broke the bread into pieces and gave it to his disciples to distribute to the multitude. Jesus took the few small fish and blessed them, and gave them to the disciples to give to the multitude.</p>
+
+                    <p>Everyone ate until they were full. The disciples then gathered up all the bread and fish that remained, and there were seven baskets full.</p>
+
+                    <p>After this miracle of feeding the 4,000, he sent them their homes. </p>
+
+                </div>   
+            </div>
+        </div>
+
+    </ion-content>
+    <ion-footer-bar class="bar-assertive social-footer">
+        <ul class="footer-pre-nex">
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part6_79">PREVIOUS</a></li>
+            <li class="listen-block"><a href="javascript:void(0)" ng-click="playAudio($event)" class="button button-light playAudio"><i class="ion-android-volume-mute"><span>Listen audio</span></i></a>                 <a href="javascript:void(0)" class="button button-light pauseAudio" style="display:none"><i class="ion-volume-mute">Pause Audio</i></a></li>
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part6_81">NEXT</a></li>
+        </ul>
+    </ion-footer-bar>
+</ion-view>

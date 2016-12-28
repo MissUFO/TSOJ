@@ -1,0 +1,79 @@
+<ion-view >
+    <ion-nav-buttons side="right" class="gb">
+        <div class="upper">
+            <a style="color: white;" class="button button-icon welcome-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/home" ng-class="{'sbu-header-items-active':$root.headerurl == 'home'}"><i class="ion-ios-home-outline"></i>WELCOME</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part1_1" ng-class="{'sbu-header-items-active':$root.headerurl == 'part1' || $root.headerurl == 'mp1'}">Part 1</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part2_14" ng-class="{'sbu-header-items-active':$root.headerurl == 'part2'}">Part 2</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part3_15" ng-class="{'sbu-header-items-active':$root.headerurl == 'part3' || $root.headerurl == 'mp3'}">Part 3</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part4_21" ng-class="{'sbu-header-items-active':$root.headerurl == 'part4' || $root.headerurl == 'mp4'}">Part 4</a> 
+        </div>
+
+        <div class="upper">
+            <a style="color: white;" class="button button-icon invite-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/invitation" ng-class="{'sbu-header-items-active':$root.headerurl == 'invitation'}"><i class="ion-ios-email-outline"></i>INVITATION</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part5_37" ng-class="{'sbu-header-items-active':$root.headerurl == 'part5' || $root.headerurl == 'mp5'}">Part 5</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part6_76" ng-class="{'sbu-header-items-active':$root.headerurl == 'part6' || $root.headerurl == 'mp6'}">Part 6</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part7_115" ng-class="{'sbu-header-items-active':$root.headerurl == 'part7' || $root.headerurl == 'mp7'}">Part 7</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part8_145" ng-class="{'sbu-header-items-active':$root.headerurl == 'part8' || $root.headerurl == 'mp8'}">Part 8</a>  
+        </div>
+
+    </ion-nav-buttons>
+
+
+
+    <ion-content scroll="true">
+        <div class="left-arrow">
+            <a ng-href="#/app/mp1"><i class="ion-arrow-left-c side-menu-btn"></i></a>
+        </div>
+        <div class="back-bg">
+
+            <div class="wrapper">
+                <div class="section-one">
+                    <h1>Wise Men From the East</h1>
+                    <img src="img/mangergrotto.png" class="img-responsive" name="mangergrotto" title="mangergrotto" />
+                    <p>When Jesus was born in <a href="javascript:void(0)" ng-click="popup('bethlehem')">Bethlehem</a>, wise men from the east came to <a href="javascript:void(0)" ng-click="popup('jerusalem')">Jerusalem</a>.</p>
+
+                    <p>As soon as they entered Jerusalem they began asking:</p>
+
+                    <p>Where is the one that has been born king of the Jews? We have seen his star in the east and are come to worship him.</p>
+
+                    <p>When <a href="javascript:void(0)" ng-click="popup('herod')">King Herod</a> heard about this he was troubled, as was all Jerusalem. Herod gathered the chief priests and <a href="#">scribes</a> of the people and asked them where the <a href="javascript:void(0)" ng-click="popup('christ')">Christ</a> would be born.</p>
+
+                    <p>They quoted scripture that said:</p>
+
+                    <p>And you Bethlehem, land of Judah, are by no means least among the rulers of Judah: For out of you shall come a governor, who shall be the shepherd of my people Israel.</p>
+
+                    <p>Herod privately called the wise men to learn the exact time the star appeared. Then he sent them to Bethlehem to go and find out all they could about the young child. He told them that when they found him they should bring all the information to him so that he could he could worship the child.</p>
+
+                    <p>The wise men listened to what Herod said and went their way. The star, which they saw in the east, went before them until it stood over where the young child was. When they saw that the star had guided them to the right spot, they rejoiced.</p>
+
+                    <p>The wise men came into the house that the star had directed them to, and saw the young child with Mary. They fell down and worshipped him and opened up their treasures and offered him gifts of gold and frankincense and <a href="javascript:void(0)" ng-click="popup('vinegar')">myrrh</a>.</p>
+
+                    <p>And being warned by God in a dream that they should not return to Herod, they returned to their own country by a different route.</p>
+
+                    <p>After the wise men had left, an <a href="javascript:void(0)" ng-click="popup('angel')">angel</a> appeared to Joseph in a dream, saying:</p>
+
+                    <p>Get up and take the young child and his mother, and flee to <a href="javascript:void(0)" ng-click="popup('egypt')">Egypt</a>. You will stay in Egypt until I tell you to return: Herod is going to search for the child in order to destroy him.</p>
+
+                </div>   
+            </div>
+        </div>
+
+    </ion-content>
+    <ion-footer-bar class="bar-assertive social-footer">
+        <ul class="footer-pre-nex">
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part1_9">PREVIOUS</a></li>
+            <li class="listen-block"><a href="javascript:void(0)" ng-click="playAudio($event)" class="button button-light playAudio"><i class="ion-android-volume-mute"><span>Listen audio</span></i></a>                 <a href="javascript:void(0)" class="button button-light pauseAudio" style="display:none"><i class="ion-volume-mute">Pause Audio</i></a></li>
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part1_11">NEXT</a></li>
+        </ul>
+    </ion-footer-bar>
+</ion-view>

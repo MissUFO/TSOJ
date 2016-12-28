@@ -1,0 +1,83 @@
+<ion-view >
+    <ion-nav-buttons side="right" class="gb">
+        <div class="upper">
+            <a style="color: white;" class="button button-icon welcome-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/home" ng-class="{'sbu-header-items-active':$root.headerurl == 'home'}"><i class="ion-ios-home-outline"></i>WELCOME</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part1_1" ng-class="{'sbu-header-items-active':$root.headerurl == 'part1' || $root.headerurl == 'mp1'}">Part 1</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part2_14" ng-class="{'sbu-header-items-active':$root.headerurl == 'part2'}">Part 2</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part3_15" ng-class="{'sbu-header-items-active':$root.headerurl == 'part3' || $root.headerurl == 'mp3'}">Part 3</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part4_21" ng-class="{'sbu-header-items-active':$root.headerurl == 'part4' || $root.headerurl == 'mp4'}">Part 4</a> 
+        </div>
+
+        <div class="upper">
+            <a style="color: white;" class="button button-icon invite-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/invitation" ng-class="{'sbu-header-items-active':$root.headerurl == 'invitation'}"><i class="ion-ios-email-outline"></i>INVITATION</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part5_37" ng-class="{'sbu-header-items-active':$root.headerurl == 'part5' || $root.headerurl == 'mp5'}">Part 5</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part6_76" ng-class="{'sbu-header-items-active':$root.headerurl == 'part6' || $root.headerurl == 'mp6'}">Part 6</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part7_115" ng-class="{'sbu-header-items-active':$root.headerurl == 'part7' || $root.headerurl == 'mp7'}">Part 7</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part8_145" ng-class="{'sbu-header-items-active':$root.headerurl == 'part8' || $root.headerurl == 'mp8'}">Part 8</a>  
+        </div>
+
+    </ion-nav-buttons>
+
+
+
+    <ion-content scroll="true">
+        <div class="left-arrow">
+            <a ng-href="#/app/mp4"><i class="ion-arrow-left-c side-menu-btn"></i></a>
+        </div>
+        <div class="back-bg">
+
+            <div class="wrapper">
+                <div class="section-one">
+                    <h1>The Second Miracle at Cana</h1>
+                    <img src="img/4_28sychar.jpg" class="img-responsive" name="sychar" title="sychar" />
+                    <p>He returned to <a href="javascript:void(0)" ng-click="popup('cana')">Cana</a> where he had turned the water into wine. There was a nobleman in<a href="javascript:void(0)" ng-click="popup('capernaum')">Capernaum</a> whose son was sick.</p>
+                    <img src="img/capernaumair.png" class="img-responsive" name="sychar" title="sychar" style="float:right;padding-left:1%;"/>
+                    <p>When he heard that Jesus was in the area, he found Jesus and begged him to heal his son, who was at the point of death.</p>
+
+                    <p>Jesus said to him:</p>
+
+                    <p>Unless you see signs and wonders you will not believe.</p>
+
+                    <p>The nobleman said:</p>
+
+                    <p>Sir, come down or else my child will die.</p>
+
+                    <p>Jesus said:</p>
+
+                    <p>Go your way: your son is alive and well.</p>
+
+                    <p>The man believed Jesus and went home.</p>
+
+                    <p>As he was going to see his son, his servants met him with news that his son was fully recovered.</p>
+
+                    <p>He asked his servants when his son had become well.</p>
+
+                    <p>They told him that it was yesterday at the seventh hour that fever left him.</p>
+
+                    <p>The father knew that was at the same hour that Jesus had told him that his son was alive and well.</p>
+
+                    <p>The nobleman believed in Jesus, as did his entire household.</p>
+                    <p>This was the second sign that Jesus did after he came out of <a href="javascript:void(0)" ng-click="popup('judea')">Judea</a> into <a href="javascript:void(0)" ng-click="popup('galilee')">Galilee</a>.</p>
+                </div>   
+            </div>
+        </div>
+
+    </ion-content>
+    <ion-footer-bar class="bar-assertive social-footer">
+        <ul class="footer-pre-nex">
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part4_27">PREVIOUS</a></li>
+            <li class="listen-block"><a href="javascript:void(0)" ng-click="playAudio($event)" class="button button-light playAudio"><i class="ion-android-volume-mute"><span>Listen audio</span></i></a>                 <a href="javascript:void(0)" class="button button-light pauseAudio" style="display:none"><i class="ion-volume-mute">Pause Audio</i></a></li>
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part4_29">NEXT</a></li>
+        </ul>
+    </ion-footer-bar>
+</ion-view>

@@ -1,0 +1,92 @@
+<ion-view >
+    <ion-nav-buttons side="right" class="gb">
+        <div class="upper">
+            <a style="color: white;" class="button button-icon welcome-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/home" ng-class="{'sbu-header-items-active':$root.headerurl == 'home'}"><i class="ion-ios-home-outline"></i>WELCOME</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part1_1" ng-class="{'sbu-header-items-active':$root.headerurl == 'part1' || $root.headerurl == 'mp1'}">Part 1</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part2_14" ng-class="{'sbu-header-items-active':$root.headerurl == 'part2'}">Part 2</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part3_15" ng-class="{'sbu-header-items-active':$root.headerurl == 'part3' || $root.headerurl == 'mp3'}">Part 3</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part4_21" ng-class="{'sbu-header-items-active':$root.headerurl == 'part4' || $root.headerurl == 'mp4'}">Part 4</a> 
+        </div>
+        <div class="upper">
+            <a style="color: white;" class="button button-icon invite-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/invitation" ng-class="{'sbu-header-items-active':$root.headerurl == 'invitation'}"><i class="ion-ios-email-outline"></i>INVITATION</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part5_37" ng-class="{'sbu-header-items-active':$root.headerurl == 'part5' || $root.headerurl == 'mp5'}">Part 5</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part6_76" ng-class="{'sbu-header-items-active':$root.headerurl == 'part6' || $root.headerurl == 'mp6'}">Part 6</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part7_115" ng-class="{'sbu-header-items-active':$root.headerurl == 'part7' || $root.headerurl == 'mp7'}">Part 7</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part8_145" ng-class="{'sbu-header-items-active':$root.headerurl == 'part8' || $root.headerurl == 'mp8'}">Part 8</a> 
+        </div>     
+    </ion-nav-buttons>
+
+
+
+    <ion-content scroll="true">
+        <div class="left-arrow"><a ng-href="#/app/mp8"><i class="ion-arrow-left-c side-menu-btn"></i></a></div>
+        <div class="back-bg">
+
+            <div class="wrapper">
+                <div class="section-one">
+                    <h1>Appearances of the Risen Christ </h1>
+                    <img src="img/gardentombwide.png" class="img-responsive" name="gardentombwide" title="gardentombwide" />
+                    <p>After Peter and John had gone home to ponder what they had seen, Mary Magdalene returned to the garden where Jesus had been buried.</p>
+
+                    <p>Mary was standing outside the tomb weeping. As she wept, she stooped down and looked into the tomb. She saw two <a href="javascript:void(0)" ng-click="popup('angel')">angels</a> in white, one at the head and the other at the foot of where Jesus had been laid.</p>
+
+
+                    <p>Jesus then came up to Mary and said to her:</p>
+
+                    <p>Woman, why are you weeping?</p>
+                    <img src="img/jerusjaffasunset.png" class="img-responsive" name="jerusjaffasunset" title="jerusjaffasunset" />
+                    <p>Mary did not recognizing him because of her sorrow. She thought he was the gardener. She said:</p>
+
+                    <p>They have taken away my Lord and I do not know where they have laid him.</p>
+
+                    <p>She then turned back to Jesus and saw him plainly and recognized him. She said in Hebrew:</p>
+
+                    <p>Rabboni (<a href="javascript:void(0)" ng-click="popup('teacher')">Teacher</a>).</p>
+
+                    <p>Jesus said to her:</p>
+
+                    <p>Do not touch me, for I have not yet ascended to the Father. Go to my brothers and tell them I am ascending to my Father and your Father, and my God and your God.</p>
+
+                    <p>Mary Magdalene went and told some of the <a href="javascript:void(0)" ng-click="popup('apostles')">disciples</a>:</p>
+
+                    <p>I have seen the Lord, he is alive.</p>
+
+                    <p>But they disbelieved her.</p>
+
+                    <p>Later Jesus met Mary Magdalene and the others who had come to <a href="javascript:void(0)" ng-click="popup('spices')">anoint his body</a>. He said:</p>
+
+                    <p>Rejoice!</p>
+
+                    <p>They came and took hold of his feet and worshipped him.</p>
+
+                    <p>Jesus said to them:</p>
+
+                    <p>Do not fear, go tell my brothers who are going to Galilee that they will soon see me.</p>
+
+                    <p>The ones who had seen Jesus were Mary Magdalene, and Joanna, and Mary the mother of James and the other women who were with them.</p>
+
+                    <p>They told the disciples, but they did not believe. The disciples thought it was idle talk. </p>
+
+                </div>   
+            </div>
+        </div>
+
+    </ion-content>
+    <ion-footer-bar class="bar-assertive social-footer">
+        <ul class="footer-pre-nex">
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part8_145">PREVIOUS</a></li>
+            <li class="listen-block"><a href="javascript:void(0)" ng-click="playAudio($event)" class="button button-light playAudio"><i class="ion-android-volume-mute"><span>Listen audio</span></i></a>                 <a href="javascript:void(0)" class="button button-light pauseAudio" style="display:none"><i class="ion-volume-mute">Pause Audio</i></a></li>
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part8_147">NEXT</a></li>
+        </ul>
+    </ion-footer-bar>
+</ion-view>

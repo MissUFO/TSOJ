@@ -1,0 +1,77 @@
+<ion-view >
+    <ion-nav-buttons side="right" class="gb">
+        <div class="upper">
+            <a style="color: white;" class="button button-icon welcome-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/home" ng-class="{'sbu-header-items-active':$root.headerurl == 'home'}"><i class="ion-ios-home-outline"></i>WELCOME</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part1_1" ng-class="{'sbu-header-items-active':$root.headerurl == 'part1' || $root.headerurl == 'mp1'}">Part 1</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part2_14" ng-class="{'sbu-header-items-active':$root.headerurl == 'part2'}">Part 2</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part3_15" ng-class="{'sbu-header-items-active':$root.headerurl == 'part3' || $root.headerurl == 'mp3'}">Part 3</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part4_21" ng-class="{'sbu-header-items-active':$root.headerurl == 'part4' || $root.headerurl == 'mp4'}">Part 4</a> 
+        </div>
+
+        <div class="upper">
+            <a style="color: white;" class="button button-icon invite-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/invitation" ng-class="{'sbu-header-items-active':$root.headerurl == 'invitation'}"><i class="ion-ios-email-outline"></i>INVITATION</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part5_37" ng-class="{'sbu-header-items-active':$root.headerurl == 'part5' || $root.headerurl == 'mp5'}">Part 5</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part6_76" ng-class="{'sbu-header-items-active':$root.headerurl == 'part6' || $root.headerurl == 'mp6'}">Part 6</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part7_115" ng-class="{'sbu-header-items-active':$root.headerurl == 'part7' || $root.headerurl == 'mp7'}">Part 7</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part8_145" ng-class="{'sbu-header-items-active':$root.headerurl == 'part8' || $root.headerurl == 'mp8'}">Part 8</a>  
+        </div>
+
+    </ion-nav-buttons>
+
+
+
+    <ion-content scroll="true">
+        <div class="left-arrow">
+            <a ng-href="#/app/mp1"><i class="ion-arrow-left-c side-menu-btn"></i></a>
+        </div>
+        <div class="back-bg">
+
+            <div class="wrapper">
+                <div class="section-one">
+                    <h1>The Boy Jesus Visits Jerusalem</h1>
+                    <p>Every year Joseph and Mary went to <a href="javascript:void(0)" ng-click="popup('jerusalem')">Jerusalem</a> to celebrate the feast of the <a href="javascript:void(0)" ng-click="popup('passover')">Passover</a>. When Jesus was 12 years old he went up to Jerusalem with his parents to celebrate the custom of the feast.</p>
+
+                    <p>After the celebration, Mary and Joseph went home, thinking Jesus was in the crowd that was returning to Nazareth. But Jesus stayed behind in Jerusalem.</p>
+
+                    <p>One day passed and Jesus' parents realized, after searching all over for Jesus, that he was not among them. They immediately returned to Jerusalem.</p>
+
+                    <img src="img/jeruskylinesunset.png" class="img-responsive" name="jeruskylinesunset" title="jeruskylinesunset" />
+                    <p>After three days, they found him in the <a href="javascript:void(0)" ng-click="popup('temple')">temple</a> sitting in the midst of the teachers. Jesus was listening and asking questions. Everyone who heard Jesus was amazed at his understanding and his answers.</p>
+
+                    <p>When Mary and Joseph saw Jesus they were astonished. Mary said to Jesus:</p>
+
+                    <p>Why have you treated us this way? Your father and I have been worried sick looking for you everywhere.</p>
+
+                    <p>Jesus said to them:</p>
+
+                    <p>How is it that you were looking for me? Didn't you know that I must be in my Father's house?</p>
+
+                    <p>Mary and Joseph did not understand what Jesus was saying to them. But they left together to return to Nazareth, as Jesus was subject to his parents.</p>
+
+                    <p>Jesus advanced in wisdom and stature, and in favor with God and men.</p>
+
+                    <p>Not much else is known about the life of Jesus until John the Baptist began his public ministry and Jesus bursts on the scene followed by signs, wonders and miracles. </p>
+
+                </div>   
+            </div>
+        </div>
+
+    </ion-content>
+    <ion-footer-bar class="bar-assertive social-footer">
+        <ul class="footer-pre-nex">
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part1_12">PREVIOUS</a></li>
+            <li class="listen-block"><a href="javascript:void(0)" ng-click="playAudio($event)" class="button button-light playAudio"><i class="ion-android-volume-mute"><span>Listen audio</span></i></a>                 <a href="javascript:void(0)" class="button button-light pauseAudio" style="display:none"><i class="ion-volume-mute">Pause Audio</i></a></li>
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part2_14">NEXT</a></li>
+        </ul>
+    </ion-footer-bar>
+</ion-view>

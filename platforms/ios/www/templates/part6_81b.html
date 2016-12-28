@@ -1,0 +1,80 @@
+<ion-view >
+     <ion-nav-buttons side="right" class="gb">
+        <div class="upper">
+            <a style="color: white;" class="button button-icon welcome-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/home" ng-class="{'sbu-header-items-active':$root.headerurl == 'home'}"><i class="ion-ios-home-outline"></i>WELCOME</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part1_1" ng-class="{'sbu-header-items-active':$root.headerurl == 'part1' || $root.headerurl == 'mp1'}">Part 1</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part2_14" ng-class="{'sbu-header-items-active':$root.headerurl == 'part2'}">Part 2</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part3_15" ng-class="{'sbu-header-items-active':$root.headerurl == 'part3' || $root.headerurl == 'mp3'}">Part 3</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part4_21" ng-class="{'sbu-header-items-active':$root.headerurl == 'part4' || $root.headerurl == 'mp4'}">Part 4</a> 
+        </div>
+
+        <div class="upper">
+            <a style="color: white;" class="button button-icon invite-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/invitation" ng-class="{'sbu-header-items-active':$root.headerurl == 'invitation'}"><i class="ion-ios-email-outline"></i>INVITATION</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part5_37" ng-class="{'sbu-header-items-active':$root.headerurl == 'part5' || $root.headerurl == 'mp5'}">Part 5</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part6_76" ng-class="{'sbu-header-items-active':$root.headerurl == 'part6' || $root.headerurl == 'mp6'}">Part 6</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+              ng-click="clickCreaElencoSpese()" ng-href="#/app/part7_115" ng-class="{'sbu-header-items-active':$root.headerurl == 'part7' || $root.headerurl == 'mp7'}">Part 7</a> 
+            <a style="color: white;" class="button button-icon parts-section" 
+               ng-click="clickCreaElencoSpese()" ng-href="#/app/part8_145" ng-class="{'sbu-header-items-active':$root.headerurl == 'part8' || $root.headerurl == 'mp8'}">Part 8</a>  
+        </div>     
+    </ion-nav-buttons>
+
+
+
+    <ion-content scroll="true">
+        <div class="left-arrow">
+            <a ng-href="#/app/mp6"><i class="ion-arrow-left-c side-menu-btn"></i></a>
+        </div>
+        <div class="back-bg">
+
+            <div class="wrapper">
+                <div class="section-one">
+                    <h3>The Great Confession</h3>
+                    <p>Jesus went out with his <a href="javascript:void(0)" ng-click="popup('apostles')">disciples</a> into the villages of <a href="javascript:void(0)" ng-click="popup('mapcaesarea')">Caesarea and Philippi</a>. Having spent time in prayer with his disciples, he asked:</p>
+
+                    <img src="img/philippi.jpg" class="img-responsive" name="philippi" title="philippi" style="float:right;padding-left:1%;" />
+                    <p>Who do men say that I am?</p>
+
+                    <p>His disciples answered:</p>
+
+                    <p>Some say that you are John the Baptist, others say you are <a href="javascript:void(0)" ng-click="popup('elijah')">Elijah</a>, others say that you are Jeremiah or one of the other old time <a href="javascript:void(0)" ng-click="popup('prophesied')">prophets</a> come back to life.</p>
+
+                    <p>Jesus asked them:</p>
+
+                    <p>But who do you think I am?</p>
+
+                    <p>Simon Peter said:</p>
+
+                    <p>You are the <a href="javascript:void(0)" ng-click="popup('christ')">Christ</a>, the Son of the living God.</p>
+
+                    <p>Jesus said to him:</p>
+
+                    <p>Blessed are you, Simon, son of <a href="javascript:void(0)" ng-click="popup('jonah')">Jonah</a>: For flesh and blood did not reveal this to you, but my Father who is in heaven.</p>
+
+                    <p>I tell you that your name is Peter (petros - a small loose stone), and upon this Rock (petra – bedrock or foundation stone) I will build my church and the gates of <a href="javascript:void(0)" ng-click="popup('hell')">hell</a> shall not prevail against it.</p>
+
+                    <p>I will give to you the keys of the kingdom of heaven and whatever you bind on earth will be bound in heaven; and whatever you loose on earth will be loosed in heaven.</p>
+
+                    <p>He then told his disciples not to tell anyone that he was the Christ. </p>
+
+                </div>   
+            </div>
+        </div>
+
+    </ion-content>
+    <ion-footer-bar class="bar-assertive social-footer">
+        <ul class="footer-pre-nex">
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part6_81">PREVIOUS</a></li>
+            <li class="listen-block"><a href="javascript:void(0)" ng-click="playAudio($event)" class="button button-light playAudio"><i class="ion-android-volume-mute"><span>Listen audio</span></i></a>                 <a href="javascript:void(0)" class="button button-light pauseAudio" style="display:none"><i class="ion-volume-mute">Pause Audio</i></a></li>
+            <li> <a  class="button button-icon  button-light"  ng-click="clickCreaElencoSpese()" ng-href="#/app/part6_81c">NEXT</a></li>
+        </ul>
+    </ion-footer-bar>
+</ion-view>
